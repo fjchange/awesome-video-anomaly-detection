@@ -1,5 +1,11 @@
 # awesome-video-anomaly-detection
 Papers for Video Anomaly Detection, released codes collections.
+## Datasets
+0. UMN
+1. UCSD
+2. CUHK Avenue
+3. ShanghaiTech
+4. UCF-Crime
 
 ## Unsupervised
 1. Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection, ICCV 2019.
