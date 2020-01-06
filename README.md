@@ -37,6 +37,9 @@ CVPR2018 workshop, CVPR2019 workshop, AICity Challenge series
 1. Localization Guided Fight Action Detection in Survellance Videos. ICME 2019.
 2. 
 
+### Social/ Group Anomaly
+1. Social-BiGAT: Multimodal Trajectory Forecasting using Bicycle-GAN and Graph Attention Networks
+
 ## Related Topics:
 1. Video Representation (Unsupervised Video Representation, reconstruction, predction etc.)
 2. Object Detection
