@@ -12,7 +12,7 @@ Papers for Video Anomaly Detection, released codes collections.
 
 -----
 ## Unsupervised
-1. Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection, ICCV 2019.
+1. Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection, ICCV 2019.[code](https://github.com/donggong1/memae-anomaly-detection)
 2. Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos, CVPR 2019.[code](https://github.com/RomeroBarata/skeleton_based_anomaly_detection)
 3. Object-Centric Auto-Encoders and Dummy Anomalies for Abnormal Event Detection, CVPR 2019.
 4. Anomaly Detection in Video Sequence with Appearance-Motion Correspondence, ICCV 2019.
