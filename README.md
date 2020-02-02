@@ -29,7 +29,7 @@ Papers for Video Anomaly Detection, released codes collections.
 
 ------
 ## Reviews / Surveys
-1. An Overview of Deep Learning Based Methods for Unsupervised and Semi-Supervised Anomaly Detection in Videos, J. Image, 2018.[page]https://beedotkiran.github.io/VideoAnomaly.html
+1. An Overview of Deep Learning Based Methods for Unsupervised and Semi-Supervised Anomaly Detection in Videos, J. Image, 2018.[page](https://beedotkiran.github.io/VideoAnomaly.html)
 2. 
 
 ------
