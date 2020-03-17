@@ -9,8 +9,8 @@ Papers for Video Anomaly Detection, released codes collections.
 5. UCF-Crime (Weakly Supervised)
 6. Traffic-Train
 7. Belleview
-8. Street Scene (WACV 20)
-
+8. Street Scene (WACV 2020)
+9. IITB-Corridor (WACV 2020)
 -----
 ## Unsupervised
 1. Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection, ICCV 2019.[code](https://github.com/donggong1/memae-anomaly-detection)
