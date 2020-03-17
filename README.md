@@ -9,6 +9,7 @@ Papers for Video Anomaly Detection, released codes collections.
 5. UCF-Crime (Weakly Supervised)
 6. Traffic-Train
 7. Belleview
+8. Street Scene (WACV 20)
 
 -----
 ## Unsupervised
@@ -20,7 +21,8 @@ Papers for Video Anomaly Detection, released codes collections.
 6. Adversarially Learned One-Class Classifier for Novelty Detection, CVPR 2018. [code](https://github.com/khalooei/ALOCC-CVPR2018)
 7. Joint Detection and Recounting of Abnormal Events by Learning Deep Generic Knowledge, ICCV 2017. (Explainable VAD)
 8. A revisit of sparse coding based anomaly detection in stacked rnn framework, ICCV 2017. [code](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
-9. 
+9. Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020.
+10. Multi-timescale Trajectory Prediction for Abnormal Human Activity Detection, WACV 2020.
 
 ## Weakly-Supervised
 1. Real-world Anomaly Detection in Surveillance Videos, CVPR 2018 [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
@@ -42,7 +44,7 @@ CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
 
 ### Old-man Fall Down
 
-### Fighting/Volence
+### Fighting/Violence
 1. Localization Guided Fight Action Detection in Survellance Videos. ICME 2019.
 2. 
 
