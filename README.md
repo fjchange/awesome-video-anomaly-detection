@@ -63,4 +63,4 @@ CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
 9. Label Noise Learning
 10. Cross-Modal/ Multi-Modal
 11. Dictionary Learning
-12. 
+12. One-Class Classification
