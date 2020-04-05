@@ -66,3 +66,8 @@ CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
 11. Dictionary Learning
 12. One-Class Classification / Novelty Detection / Out-of-Disturibution Detection
 
+## Performance Evaluation Methods
+1. AUC
+2. PR-AUC
+3. Score Gap
+4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
