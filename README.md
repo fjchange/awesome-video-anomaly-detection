@@ -59,7 +59,7 @@ CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
 4. Skeleton Detection
 5. Graph Neural Networks
 6. GAN
-7. Action Recongnition
+7. Action Recongnition / Temporal Action Localization
 8. Metric Learning
 9. Label Noise Learning
 10. Cross-Modal/ Multi-Modal
