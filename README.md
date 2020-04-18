@@ -29,6 +29,7 @@ Papers for Video Anomaly Detection, released codes collections.
 2. Graph Convolutional Label Noise Cleaner:Train a Plug-and-play Action Classifier for Anomaly Detection, CVPR 2019, [code](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)
 3. Margin Learning Embedded Prediction for Video Anomaly Detection with A Few Anomalies, IJCAI 2019.
 4. Temporal Convolutional Network with Complementary Inner Bg Loss For Weakly Supervised Anomaly Detection. ICIP 19.
+5. Learning a distance function with a Siamese network to localize anomalies in videos, WACV 2020.
 
 ------
 ## Reviews / Surveys
