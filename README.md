@@ -17,19 +17,21 @@ Papers for Video Anomaly Detection, released codes collections.
 2. Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos, CVPR 2019.[code](https://github.com/RomeroBarata/skeleton_based_anomaly_detection)
 3. Object-Centric Auto-Encoders and Dummy Anomalies for Abnormal Event Detection, CVPR 2019.
 4. Anomaly Detection in Video Sequence with Appearance-Motion Correspondence, ICCV 2019.
-5. Future Frame Prediction for Anomaly Detection -- A New Baseline, CVPR 2018. [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
-6. Adversarially Learned One-Class Classifier for Novelty Detection, CVPR 2018. [code](https://github.com/khalooei/ALOCC-CVPR2018)
-7. Joint Detection and Recounting of Abnormal Events by Learning Deep Generic Knowledge, ICCV 2017. (Explainable VAD)
-8. A revisit of sparse coding based anomaly detection in stacked rnn framework, ICCV 2017. [code](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
-9. Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020.
-10. Multi-timescale Trajectory Prediction for Abnormal Human Activity Detection, WACV 2020.
+5. AnoPCN: Video Anomaly Detection via Deep Predictive Coding Network, ACM MM 2019.
+6. Future Frame Prediction for Anomaly Detection -- A New Baseline, CVPR 2018. [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
+7. Adversarially Learned One-Class Classifier for Novelty Detection, CVPR 2018. [code](https://github.com/khalooei/ALOCC-CVPR2018)
+8. Joint Detection and Recounting of Abnormal Events by Learning Deep Generic Knowledge, ICCV 2017. (Explainable VAD)
+9. A revisit of sparse coding based anomaly detection in stacked rnn framework, ICCV 2017. [code](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
+10. Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020.
+11. Multi-timescale Trajectory Prediction for Abnormal Human Activity Detection, WACV 2020.
 
 ## Weakly-Supervised
 1. Real-world Anomaly Detection in Surveillance Videos, CVPR 2018 [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
 2. Graph Convolutional Label Noise Cleaner:Train a Plug-and-play Action Classifier for Anomaly Detection, CVPR 2019, [code](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)
 3. Margin Learning Embedded Prediction for Video Anomaly Detection with A Few Anomalies, IJCAI 2019.
 4. Temporal Convolutional Network with Complementary Inner Bg Loss For Weakly Supervised Anomaly Detection. ICIP 19.
-5. Learning a distance function with a Siamese network to localize anomalies in videos, WACV 2020.
+5. Exploring Background-bias for Anomaly Detection in Surveillance Videos, ACM MM 19.
+6. Learning a distance function with a Siamese network to localize anomalies in videos, WACV 2020.
 
 ------
 ## Reviews / Surveys
