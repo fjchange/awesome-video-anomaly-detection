@@ -9,7 +9,8 @@ Papers for Video Anomaly Detection, released codes collections.
 4. ShanghaiTech
     - HD-ShanghaiTech
 5. UCF-Crime (Weakly Supervised)
-    - UCFCrime2Local (subset of UCF-Crime but with spatial annotations.)
+    - UCFCrime2Local (subset of UCF-Crime but with spatial annotations.) [download_link](http://imagelab.ing.unimore.it/UCFCrime2Local)
+    - Spatial Temporal Annotations [download_link](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation)
 6. Traffic-Train
 7. Belleview
 8. Street Scene (WACV 2020)
