@@ -93,10 +93,10 @@ CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
 
 ## Performance Comparision on UCF-Crime 
 |Model| Convference/Journal | Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
-|-|-|-|-|-|-|
+|----|----|----|----|-----|----|
 |Deep MIL Ranking | CVPR 18 | C3D RGB | X | √ | 75.41 | 1.9|
 |MIL_IBL |  ICIP 19 | C3D RGB | X | √ |  78.66 | -|
 |MA_MIL| BMVC 19 | PWC RGB| X | √ |  79.0 | -|
 |Graph Label Noise Cleaner | CVPR 19 | TSN RGB | √ | X | 82.12 | 0.1|
-|-|-|-|-|-|-|
+|----|----|----|----|-----|----|
 |Background Bias | ACM MM 19 | NLN RGB | √ | X | 82.0 | - |
