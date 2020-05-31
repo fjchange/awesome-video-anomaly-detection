@@ -92,11 +92,10 @@ CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
 ## Performance Comparision on UCF-Crime 
-|Model| Convference/Journal | Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
-|----|----|----|----|-----|----|----|
-|Deep MIL Ranking | CVPR 18 | C3D RGB | X | √ | 75.41 | 1.9|
-|MIL_IBL |  ICIP 19 | C3D RGB | X | √ |  78.66 | -|
-|MA_MIL| BMVC 19 | PWC RGB| X | √ |  79.0 | -|
-|Graph Label Noise Cleaner | CVPR 19 | TSN RGB | √ | X | 82.12 | 0.1|
-|----|----|----|----|-----|----|----|
-|Background Bias | ACM MM 19 | NLN RGB | √ | X | 82.0 | - |
+|Model| Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
+|----|----|----|----|-----|----|----|----|
+|Deep MIL Ranking | CVPR 18 | Weakly | C3D RGB | X | √ | 75.41 | 1.9|
+|MIL_IBL |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
+|MA_MIL| BMVC 19 | Weakly | PWC RGB| X | √ |  79.0 | -|
+|Graph Label Noise Cleaner | CVPR 19 | Weakly | TSN RGB | √ | X | 82.12 | 0.1|
+|Background Bias | ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
