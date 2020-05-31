@@ -5,7 +5,9 @@ Papers for Video Anomaly Detection, released codes collections.
 1. UCSD
 2. Subway Entrance/Exit
 3. CUHK Avenue
+    - HD-Avenue
 4. ShanghaiTech
+    - HD-ShanghaiTech
 5. UCF-Crime (Weakly Supervised)
     - UCFCrime2Local (subset of UCF-Crime but with spatial annotations.)
 6. Traffic-Train
