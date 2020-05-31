@@ -18,11 +18,11 @@ Papers for Video Anomaly Detection, released codes collections.
 ## Unsupervised
 ### 2017
 1. Joint Detection and Recounting of Abnormal Events by Learning Deep Generic Knowledge, ICCV 2017. (Explainable VAD)
-2. A revisit of sparse coding based anomaly detection in stacked rnn framework, ICCV 2017. [code]
+2. A revisit of sparse coding based anomaly detection in stacked rnn framework, ICCV 2017. [code](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
 ### 2018
 1. Future Frame Prediction for Anomaly Detection -- A New Baseline, CVPR 2018. [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 2. Adversarially Learned One-Class Classifier for Novelty Detection, CVPR 2018. [code](https://github.com/khalooei/ALOCC-CVPR2018)
-(https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
+
 ### 2019
 1. Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection, ICCV 2019.[code](https://github.com/donggong1/memae-anomaly-detection)
 2. Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos, CVPR 2019.[code](https://github.com/RomeroBarata/skeleton_based_anomaly_detection)
