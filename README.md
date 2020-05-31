@@ -7,6 +7,7 @@ Papers for Video Anomaly Detection, released codes collections.
 3. CUHK Avenue
 4. ShanghaiTech
 5. UCF-Crime (Weakly Supervised)
+  UCFCrime2Local (subset of UCF-Crime but with spatial annotations.)
 6. Traffic-Train
 7. Belleview
 8. Street Scene (WACV 2020)
@@ -30,8 +31,11 @@ Papers for Video Anomaly Detection, released codes collections.
 2. Graph Convolutional Label Noise Cleaner:Train a Plug-and-play Action Classifier for Anomaly Detection, CVPR 2019, [code](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)
 3. Margin Learning Embedded Prediction for Video Anomaly Detection with A Few Anomalies, IJCAI 2019.
 4. Temporal Convolutional Network with Complementary Inner Bg Loss For Weakly Supervised Anomaly Detection. ICIP 19.
-5. Exploring Background-bias for Anomaly Detection in Surveillance Videos, ACM MM 19.
-6. Learning a distance function with a Siamese network to localize anomalies in videos, WACV 2020.
+5. Learning a distance function with a Siamese network to localize anomalies in videos, WACV 2020.
+
+## Supervised
+1. Exploring Background-bias for Anomaly Detection in Surveillance Videos, ACM MM 19.
+2. Anomaly locality in video suveillance, ICIP 19.
 
 ------
 ## Reviews / Surveys
