@@ -56,6 +56,9 @@ Papers for Video Anomaly Detection, released codes collections.
 1. An Overview of Deep Learning Based Methods for Unsupervised and Semi-Supervised Anomaly Detection in Videos, J. Image, 2018.[page](https://beedotkiran.github.io/VideoAnomaly.html)
 2. DEEP LEARNING FOR ANOMALY DETECTION: A SURVEY, [paper](https://arxiv.org/pdf/1901.03407.pdf)
 3. Video Anomaly Detection for Smart Surveillance [paper](https://arxiv.org/pdf/2004.00222.pdf)
+
+## Books
+1. Outlier Analysis. Charu C. Aggarwal
 ------
 Generally, anomaly detection in recent researchs are based on the datasets get from pedestrian (likes UCSD, Avenue, ShanghaiTech, etc.)， or UCF-Crime (real-wrold anomaly).
 However some focus on specefic scene as follows.
