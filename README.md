@@ -92,6 +92,8 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 10. Cross-Modal/ Multi-Modal
 11. Dictionary Learning
 12. One-Class Classification / Novelty Detection / Out-of-Disturibution Detection
+13. Action Recognition.
+    - Human in Events: A Large-Scale Benchmark for Human-centric Video Analysis in Complex Events. ACM MM 2020 workshop.
 
 ## Performance Evaluation Methods
 1. AUC
