@@ -33,7 +33,8 @@ Papers for Video Anomaly Detection, released codes collections.
 ### 2020
 1. Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020.
 2. Multi-timescale Trajectory Prediction for Abnormal Human Activity Detection, WACV 2020.
-
+3. Continual Learning for Anomaly Detection in Surveillance Videos, CVPR 2020.[paper](https://arxiv.org/pdf/2004.07941.pdf)
+4. Self-trained Deep Ordinal Regression for End-to-End Video Anomaly Detection, CVPR 2020. [paper](https://arxiv.org/pdf/2003.06780.pdf)
 ## Weakly-Supervised
 ### 2018
 1. Real-world Anomaly Detection in Surveillance Videos, CVPR 2018 [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
