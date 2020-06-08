@@ -36,7 +36,7 @@ Papers for Video Anomaly Detection, released codes collections.
 3. Graph Embedded Pose Clustering for Anomaly Detection, CVPR 2020. [paper](https://arxiv.org/pdf/1912.11850.pdf)
 4. Self-trained Deep Ordinal Regression for End-to-End Video Anomaly Detection, CVPR 2020. [paper](https://arxiv.org/pdf/2003.06780.pdf)
 5. Learning Memory-guided Normality for Anomaly Detection, CVPR 2020 [paper](https://arxiv.org/pdf/2003.13228.pdf)
-6. 
+6. Continual Learning for Anomaly Detection in Surveillance Videos, CVPR 2020 Worksop. [paper](https://arxiv.org/pdf/2004.07941)
 ## Weakly-Supervised
 ### 2018
 1. Real-world Anomaly Detection in Surveillance Videos, CVPR 2018 [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
