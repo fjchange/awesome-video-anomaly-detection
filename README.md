@@ -48,6 +48,8 @@ Papers for Video Anomaly Detection, released codes collections.
 4. Motion-Aware Feature for Improved Video Anomaly Detection. BMVC 19.
 ### 2020
 1. Learning a distance function with a Siamese network to localize anomalies in videos, WACV 2020.
+2. WEAKLY SUPERVISED VIDEO ANOMALY DETECTION VIA CENTER-GUIDED DISCRIMINATIVE LEARNING, ICME 2020.
+
 
 ## Supervised
 ### 2019
