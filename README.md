@@ -113,3 +113,22 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 |MA_MIL| BMVC 19 | Weakly | PWC Flow| X | √ |  79.0 | -|
 |Graph Label Noise Cleaner | CVPR 19 | Weakly | TSN RGB | √ | X | 82.12 | 0.1|
 |Background Bias | ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
+
+## Perfromace Comparision on ShanghaiTech
+| Model | Conference/Journal | Supervision | Feature | End2Emd |  AUC(%) |
+|----|----|----|----|-----|----|
+| Conv-AE | CVPR 16 | Unsupervised | - | √ | 60.85 |
+| sRNN | ICCV 17 | Unsupervised | - | √ | 68.0 |
+| ano_pred | CVPR 18 | Unsupervised | - | √ | 72.8 |
+
+## Performance Comparision on Avenue 
+| Model | Conference/Journal | Supervision | Feature | End2Emd |  AUC(%) |
+|----|----|----|----|-----|----|
+| Conv-AE | CVPR 16 | Un | - | √ | 80.0 |
+| ConvLSTM-AE | ICME 17 | Un | - | √ | 77.0 | 
+| DeepAppearance | ICAIP 17 | Un | - | 84.6 |
+| Unmasking | ICCV 17 | Un | 3D gradients+VGG conv5 | 80.6 |
+| sRNN | ICCV 17 | Un | - |  81.7 |
+| ano_pred | CVPR 18 | Un | 85.1 |
+| Mem-AE | CVPR 19 | Un | 83.3 |
+| ACT | CVPR 19 | Un | 86.9 |
