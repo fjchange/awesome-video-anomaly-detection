@@ -116,14 +116,22 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 |Background Bias | ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
 
 ## Perfromace Comparision on ShanghaiTech
-| Model | Conference/Journal | Supervision | Feature | End2Emd |  AUC(%) |
-|----|----|----|----|-----|----|
-| Conv-AE | CVPR 16 | Unsupervised | - | √ | 60.85 |
-| sRNN | ICCV 17 | Unsupervised | - | √ | 68.0 |
-| ano_pred | CVPR 18 | Unsupervised | - | √ | 72.8 |
-| Mem-AE | ICCV 19 | Un | - | √ | 71.2 |
-| Mem-Norm | CVPR 20 | Un | - |  √ | 70.5 |
-
+| Model | Conference/Journal | Supervision | Feature | End2Emd |  AUC(%) | FAR@0.5 (%) |
+|----|----|----|----|-----|----|----|
+| Conv-AE | CVPR 16 | Un | - | √ | 60.85 | - |
+| sRNN | ICCV 17 | Un | - | √ | 68.0 | - |
+| future pred | CVPR 18 | Un | - | √ | 72.8 | - |
+| future pred * | IJCAI 19 | Un | - | √ | 73.4 | - |
+| Mem-AE | ICCV 19 | Un | - | √ | 71.2 | - |
+| Mem-Norm | CVPR 20 | Un | - |  √ | 70.5 | - |
+| MLEP |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
+| MLEP |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
+| MIL VAD | CVPR 18 | Weakly (Recognize Dataset) | I3D-RGB | X | 86.3 | 0.15 |
+| IBL VAD | ICIP 19 | Weakly (Recognize Dataset) | I3D-RGB | X | 82.5 | 0.10 |
+| GCN label cleaner | CVPR 19 | Weakly (Recognize Dataset) | C3D-RGB | √ | 76.44 |  - |
+| GCN label cleaner | CVPR 19 | Weakly (Recognize Dataset) | TSN-Flow | √ | 84.13 |  - |
+| GCN label cleaner | CVPR 19 | Weakly (Recognize Dataset) | TSN-RGB | √ | 84.44| - | 
+| AR-Net | ICME 20 | Weakly (Recognize Dataset) | I3D-RGB & I3D Flow | X | 91.24| 0.10 |
 ## Performance Comparision on Avenue 
 | Model | Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
 |----|----|----|----|-----|----|
@@ -132,8 +140,10 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | DeepAppearance | ICAIP 17 | Un | - | √ | 84.6 |
 | Unmasking | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
 | sRNN | ICCV 17 | Un | - | √ |  81.7 |
-| ano_pred | CVPR 18 | Un | - | √ | 85.1 |
+| future pred | CVPR 18 | Un | - | √ | 85.1 |
 | Mem-AE | ICCV 19 | Un | - | √ | 83.3 |
 | ACT | ICCV 19 | Un | - | √ | 86.9 |
+| future pred * | IJCAI 19 | Un | - | √ | 89.2 |
 | Mem-Norm | CVPR 20 | Un | - |  √ | 88.5 |
-
+| MLEP |IJCAI 19 | 10% test vids with Video Anno | - | √ | 91.3 |
+| MLEP |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 92.8 |
