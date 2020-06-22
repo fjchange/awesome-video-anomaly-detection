@@ -37,6 +37,7 @@ Papers for Video Anomaly Detection, released codes collections.
 4. Self-trained Deep Ordinal Regression for End-to-End Video Anomaly Detection, CVPR 2020. [paper](https://arxiv.org/pdf/2003.06780.pdf)
 5. Learning Memory-guided Normality for Anomaly Detection, CVPR 2020 [paper](https://arxiv.org/pdf/2003.13228.pdf)
 6. Continual Learning for Anomaly Detection in Surveillance Videos, CVPR 2020 Worksop. [paper](https://arxiv.org/pdf/2004.07941)
+
 ## Weakly-Supervised
 ### 2018
 1. Real-world Anomaly Detection in Surveillance Videos, CVPR 2018 [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
@@ -120,15 +121,19 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | Conv-AE | CVPR 16 | Unsupervised | - | √ | 60.85 |
 | sRNN | ICCV 17 | Unsupervised | - | √ | 68.0 |
 | ano_pred | CVPR 18 | Unsupervised | - | √ | 72.8 |
+| Mem-AE | ICCV 19 | Un | - | √ | 71.2 |
+| Mem-Norm | CVPR 20 | Un | - |  √ | 70.5 |
 
 ## Performance Comparision on Avenue 
-| Model | Conference/Journal | Supervision | Feature | End2Emd |  AUC(%) |
+| Model | Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
 |----|----|----|----|-----|----|
 | Conv-AE | CVPR 16 | Un | - | √ | 80.0 |
 | ConvLSTM-AE | ICME 17 | Un | - | √ | 77.0 | 
-| DeepAppearance | ICAIP 17 | Un | - | 84.6 |
-| Unmasking | ICCV 17 | Un | 3D gradients+VGG conv5 | 80.6 |
-| sRNN | ICCV 17 | Un | - |  81.7 |
-| ano_pred | CVPR 18 | Un | 85.1 |
-| Mem-AE | CVPR 19 | Un | 83.3 |
-| ACT | CVPR 19 | Un | 86.9 |
+| DeepAppearance | ICAIP 17 | Un | - | √ | 84.6 |
+| Unmasking | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
+| sRNN | ICCV 17 | Un | - | √ |  81.7 |
+| ano_pred | CVPR 18 | Un | - | √ | 85.1 |
+| Mem-AE | ICCV 19 | Un | - | √ | 83.3 |
+| ACT | ICCV 19 | Un | - | √ | 86.9 |
+| Mem-Norm | CVPR 20 | Un | - |  √ | 88.5 |
+
