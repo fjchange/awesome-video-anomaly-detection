@@ -72,6 +72,9 @@ However some focus on specefic scene as follows.
 ## Specific Scene
 ### Traffic
 CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
+#### First-Person Traffic
+1. Unsupervised Traffic Accident Detection in First-Person Videos, IROS 2019.
+
 #### Driving
 When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [github](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)
 
