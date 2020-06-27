@@ -37,6 +37,8 @@ Papers for Video Anomaly Detection, released codes collections.
 4. Self-trained Deep Ordinal Regression for End-to-End Video Anomaly Detection, CVPR 2020. [paper](https://arxiv.org/pdf/2003.06780.pdf)
 5. Learning Memory-guided Normality for Anomaly Detection, CVPR 2020 [paper](https://arxiv.org/pdf/2003.13228.pdf)
 6. Continual Learning for Anomaly Detection in Surveillance Videos, CVPR 2020 Worksop. [paper](https://arxiv.org/pdf/2004.07941)
+7. Old is Gold: Redefining the Adversarially Learned One-Class Classifier Training Paradigm, CVPR 2020. [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zaheer_Old_Is_Gold_Redefining_the_Adversarially_Learned_One-Class_Classifier_Training_CVPR_2020_paper.pdf)
+8. Any-Shot Sequential Anomaly Detection in Surveillance Videos, CVPR 2020 workshop. [paper](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w54/Doshi_Any-Shot_Sequential_Anomaly_Detection_in_Surveillance_Videos_CVPRW_2020_paper.pdf)
 
 ## Weakly-Supervised
 ### 2018
