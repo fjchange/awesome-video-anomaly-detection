@@ -17,9 +17,13 @@ Papers for Video Anomaly Detection, released codes collections.
 9. IITB-Corridor (WACV 2020)
 -----
 ## Unsupervised
+### 2016
+1. [Learning Temporal Regularity in Video Sequences](https://openaccess.thecvf.com/content_cvpr_2016/papers/Hasan_Learning_Temporal_Regularity_CVPR_2016_paper.pdf), CVPR 16. [Code](https://github.com/iwyoo/TemporalRegularityDetector-tensorflow/blob/master/model.py)
 ### 2017
 1. Joint Detection and Recounting of Abnormal Events by Learning Deep Generic Knowledge, ICCV 2017. (Explainable VAD)
 2. A revisit of sparse coding based anomaly detection in stacked rnn framework, ICCV 2017. [code](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
+3. [Remembering history with convolutional LSTM for anomaly detection](https://ieeexplore.ieee.org/abstract/document/8019325), ICME 2017.[Code](https://github.com/zachluo/convlstm_anomaly_detection)
+4. [Spatio-Temporal AutoEncoder for Video Anomaly Detection](https://dl.acm.org/doi/abs/10.1145/3123266.3123451)，ACM MM 17.
 ### 2018
 1. Future Frame Prediction for Anomaly Detection -- A New Baseline, CVPR 2018. [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 2. Adversarially Learned One-Class Classifier for Novelty Detection, CVPR 2018. [code](https://github.com/khalooei/ALOCC-CVPR2018)
