@@ -150,7 +150,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | Model | Reported on Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
 |----|----|----|----|-----|----|
 | <span id = "51601">[Conv-AE](#01601)</span> | CVPR 16 | Un | - | √ | 70.2 |
-| <span id = "51601-2">[Conv-AE*]#(#01801)</span> | CVPR 18 | Un | - | √ | 80.0 |
+| <span id = "51601-2">[Conv-AE*](#01801)</span> | CVPR 18 | Un | - | √ | 80.0 |
 | <span id = "51703">[ConvLSTM-AE](#01703)</span> | ICME 17 | Un | - | √ | 77.0 | 
 | <span id = "51706">[DeepAppearance](#01706)</span> | ICAIP 17 | Un | - | √ | 84.6 |
 | <span id = "51705">[Unmasking](#01705)</span> | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
