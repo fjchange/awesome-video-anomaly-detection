@@ -1,5 +1,8 @@
 # awesome-video-anomaly-detection  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Papers for Video Anomaly Detection, released codes collections.
+
+Any addition or bug please open an issue, pull requests or e-mail me by `fjchange@hotmail.com ` 
+
 ## Datasets
 0. UMN
 1. UCSD
@@ -24,6 +27,8 @@ Papers for Video Anomaly Detection, released codes collections.
 2. <span id = "01702">[Stacked-RNN]</span> [A revisit of sparse coding based anomaly detection in stacked rnn framework](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luo_A_Revisit_of_ICCV_2017_paper.pdf), `ICCV 2017`. [code](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)
 3. <span id = "01703">[ConvLSTM-AE]</span> [Remembering history with convolutional LSTM for anomaly detection](https://ieeexplore.ieee.org/abstract/document/8019325), `ICME 2017`.[Code](https://github.com/zachluo/convlstm_anomaly_detection)
 4. <span id = "01704">[Conv3D-AE]</span> [Spatio-Temporal AutoEncoder for Video Anomaly Detection](https://dl.acm.org/doi/abs/10.1145/3123266.3123451),`ACM MM 17`.
+5. <span id = "01705">[Unmasking]</span> [Unmasking the abnormal events in video](http://openaccess.thecvf.com/content_ICCV_2017/papers/Ionescu_Unmasking_the_Abnormal_ICCV_2017_paper.pdf), `ICCV 17`.
+6. <span id = "01706">[DeepAppearance]</span> [Deep appearance features for abnormal behavior detection in video](https://www.researchgate.net/profile/Radu_Tudor_Ionescu/publication/320361315_Deep_Appearance_Features_for_Abnormal_Behavior_Detection_in_Video/links/5a469e9fa6fdcce1971b7258/Deep-Appearance-Features-for-Abnormal-Behavior-Detection-in-Video.pdf)
 ### 2018
 1. <span id = "01801">[FramePred]</span> [Future Frame Prediction for Anomaly Detection -- A New Baseline](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf), `CVPR 2018`. [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 2. <span id = "01802">[ALOOC]</span> [Adversarially Learned One-Class Classifier for Novelty Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sabokrou_Adversarially_Learned_One-Class_CVPR_2018_paper.pdf), `CVPR 2018`. [code](https://github.com/khalooei/ALOCC-CVPR2018)
@@ -32,7 +37,7 @@ Papers for Video Anomaly Detection, released codes collections.
 1. <span id = "01901">[Mem-AE]</span> [Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gong_Memorizing_Normality_to_Detect_Anomaly_Memory-Augmented_Deep_Autoencoder_for_Unsupervised_ICCV_2019_paper.pdf), `ICCV 2019`.[code](https://github.com/donggong1/memae-anomaly-detection)
 2. <span id = "01902">[Skeleton-based]</span> [Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos](http://openaccess.thecvf.com/content_CVPR_2019/papers/Morais_Learning_Regularity_in_Skeleton_Trajectories_for_Anomaly_Detection_in_Videos_CVPR_2019_paper.pdf), `CVPR 2019`.[code](https://github.com/RomeroBarata/skeleton_based_anomaly_detection)
 3. <span id = "01903">[Object-Centric]</span> [Object-Centric Auto-Encoders and Dummy Anomalies for Abnormal Event Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ionescu_Object-Centric_Auto-Encoders_and_Dummy_Anomalies_for_Abnormal_Event_Detection_in_CVPR_2019_paper.pdf), `CVPR 2019`.
-4. <span id = "01904">[Appearance-Motion Correspondence] </span>[Anomaly Detection in Video Sequence with Appearance-Motion Correspondence](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nguyen_Anomaly_Detection_in_Video_Sequence_With_Appearance-Motion_Correspondence_ICCV_2019_paper.pdf), `ICCV 2019`.
+4. <span id = "01904">[Appearance-Motion Correspondence]</span> [Anomaly Detection in Video Sequence with Appearance-Motion Correspondence](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nguyen_Anomaly_Detection_in_Video_Sequence_With_Appearance-Motion_Correspondence_ICCV_2019_paper.pdf), `ICCV 2019`.
 5. <span id = "01905">[AnoPCN]</span>[AnoPCN: Video Anomaly Detection via Deep Predictive Coding Network](https://people.cs.clemson.edu/~jzwang/20018630/mm2019/p1805-ye.pdf), ACM MM 2019.
 ### 2020
 1. <span id = "02001">[Street-Scene]</span> [Street Scene: A new dataset and evaluation protocol for video anomaly detection](http://openaccess.thecvf.com/content_WACV_2020/papers/Ramachandra_Street_Scene_A_new_dataset_and_evaluation_protocol_for_video_WACV_2020_paper.pdf), `WACV 2020`.
@@ -116,7 +121,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
 ## Performance Comparision on UCF-Crime 
-|Model| Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
+|Model| Reported on Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
 |----|----|----|----|-----|----|----|----|
 |<span id = "31801">[Sultani.etl](#11801)</span> | CVPR 18 | Weakly | C3D RGB | X | √ | 75.41 | 1.9|
 |<span id = "31903">[Sultani.etl](#11903)</span> |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
@@ -133,8 +138,8 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "41902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 73.4 | - |
 | <span id = "41901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 71.2 | - |
 | <span id = "42005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 70.5 | - |
-| <span id = "41801-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
-| <span id = "41801-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
+| <span id = "41902-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
+| <span id = "41902-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
 | <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 86.3 | 0.15 |
 | <span id = "42002-2">[IBL](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 82.5 | 0.10 |
 | <span id = "41901-2">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | C3D-RGB | √ | 76.44 |  - |
@@ -142,17 +147,18 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-RGB | √ | 84.44| - | 
 | <span id = "42002">[AR-Net](#12002)</span> | ICME 20 | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X | 91.24| 0.10 |
 ## Performance Comparision on Avenue 
-| Model | Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
+| Model | Reported on Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
 |----|----|----|----|-----|----|
-| Conv-AE | CVPR 16 | Un | - | √ | 80.0 |
-| ConvLSTM-AE | ICME 17 | Un | - | √ | 77.0 | 
-| DeepAppearance | ICAIP 17 | Un | - | √ | 84.6 |
-| Unmasking | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
-| sRNN | ICCV 17 | Un | - | √ |  81.7 |
-| future pred | CVPR 18 | Un | - | √ | 85.1 |
-| Mem-AE | ICCV 19 | Un | - | √ | 83.3 |
-| ACT | ICCV 19 | Un | - | √ | 86.9 |
-| future pred * | IJCAI 19 | Un | - | √ | 89.2 |
-| Mem-Norm | CVPR 20 | Un | - |  √ | 88.5 |
-| MLEP |IJCAI 19 | 10% test vids with Video Anno | - | √ | 91.3 |
-| MLEP |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 92.8 |
+| <span id = "51601">[Conv-AE]</span> | CVPR 16 | Un | - | √ | 80.0 |
+| <span id = "51601-2">[Conv-AE*]</span> | CVPR 18 | Un | - | √ | 80.0 |
+| <span id = "51703">[ConvLSTM-AE]</span> | ICME 17 | Un | - | √ | 77.0 | 
+| <span id = "01706">[DeepAppearance]</span> | ICAIP 17 | Un | - | √ | 84.6 |
+| <span id = "51705">[Unmasking]</span> | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
+| <span id = "51702">[stacked-RNN](#01702)</span> | ICCV 17 | Un | - | √ |  81.7 |
+| <span id = "51801">[FramePred](#01801)</span> | CVPR 18 | Un | - | √ | 85.1 |
+| <span id = "51901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 83.3 |
+| <span id = "01904">[Appearance-Motion Correspondence] </span>| ICCV 19 | Un | - | √ | 86.9 |
+| <span id = "51902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 89.2 |
+| <span id = "52005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 88.5 |
+| <span id = "51801-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 91.3 |
+| <span id = "51801-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 92.8 |
