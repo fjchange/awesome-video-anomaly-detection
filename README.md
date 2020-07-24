@@ -131,15 +131,15 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "41702">[stacked-RNN](#01702)</span> | ICCV 17 | Un | - | √ | 68.0 | - |
 | <span id = "41801">[FramePred](#01801)</span> | CVPR 18 | Un | - | √ | 72.8 | - |
 | <span id = "41902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 73.4 | - |
-| <span id = "41901">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 71.2 | - |
+| <span id = "41901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 71.2 | - |
 | <span id = "42005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 70.5 | - |
-| <span id = "41801">MLEP(#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
-| <span id = "41801">MLEP(#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
-| <span id = "42002">[Sultani.etl](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 86.3 | 0.15 |
-| <span id = "42002">[IBL](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 82.5 | 0.10 |
-| <span id = "41901">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | C3D-RGB | √ | 76.44 |  - |
-| <span id = "41901">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-Flow | √ | 84.13 |  - |
-| <span id = "41901">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-RGB | √ | 84.44| - | 
+| <span id = "41801-1">MLEP(#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
+| <span id = "41801-2">MLEP(#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
+| <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 86.3 | 0.15 |
+| <span id = "42002-2">[IBL](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 82.5 | 0.10 |
+| <span id = "41901-2">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | C3D-RGB | √ | 76.44 |  - |
+| <span id = "41901-3">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-Flow | √ | 84.13 |  - |
+| <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-RGB | √ | 84.44| - | 
 | <span id = "42002">[AR-Net](#12002)</span> | ICME 20 | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X | 91.24| 0.10 |
 ## Performance Comparision on Avenue 
 | Model | Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
