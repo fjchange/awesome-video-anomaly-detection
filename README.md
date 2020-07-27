@@ -45,7 +45,7 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 3. <span id = "02003">[GEPC]</span> [Graph Embedded Pose Clustering for Anomaly Detection](https://arxiv.org/pdf/1912.11850.pdf), `CVPR 2020`.[code](https://github.com/amirmk89/gepc)
 4. <span id = "02004">[Self-trained]</span> [Self-trained Deep Ordinal Regression for End-to-End Video Anomaly Detection](https://arxiv.org/pdf/2003.06780.pdf), `CVPR 2020`. 
 5. <span id = "02005">[MNAD]</span> [Learning Memory-guided Normality for Anomaly Detection](https://arxiv.org/pdf/2003.13228.pdf), `CVPR 2020`. [code](https://cvlab.yonsei.ac.kr/projects/MNAD)
-6. <span id = "02006">[MNAD]]</span> [Continual Learning for Anomaly Detection in Surveillance Videos](https://arxiv.org/pdf/2004.07941),`CVPR 2020 Worksop.`
+6. <span id = "02006">[Continual-AD]]</span> [Continual Learning for Anomaly Detection in Surveillance Videos](https://arxiv.org/pdf/2004.07941),`CVPR 2020 Worksop.`
 7. <span id = "02007">[Old is Gold]</span> [Old is Gold: Redefining the Adversarially Learned One-Class Classifier Training Paradigm](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zaheer_Old_Is_Gold_Redefining_the_Adversarially_Learned_One-Class_Classifier_Training_CVPR_2020_paper.pdf), `CVPR 2020`.
 8. <span id = "02008">[Any-Shot]</span> [Any-Shot Sequential Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w54/Doshi_Any-Shot_Sequential_Anomaly_Detection_in_Surveillance_Videos_CVPRW_2020_paper.pdf),`CVPR 2020 workshop`.
 
