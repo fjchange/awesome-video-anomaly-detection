@@ -8,16 +8,16 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 1. UCSD
 2. Subway Entrance/Exit
 3. CUHK Avenue
-    - HD-Avenue <span id = "05">[Skeleton-based](#01902)</span>
+    - HD-Avenue `<span id = "05">[Skeleton-based](#01902)</span>`
 4. ShanghaiTech
-    - HD-ShanghaiTech <span id = "00">[Skeleton-based](#01902)</span>
+    - HD-ShanghaiTech `<span id = "00">[Skeleton-based](#01902)</span>`
 5. UCF-Crime (Weakly Supervised)
-    - UCFCrime2Local (subset of UCF-Crime but with spatial annotations.) [download_link](http://imagelab.ing.unimore.it/UCFCrime2Local), <span id = "01">[Ano-Locality](#21902)</span>
-    - Spatial Temporal Annotations [download_link](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) <span id = "02">[Background-Bias](#21901)</span>
+    - UCFCrime2Local (subset of UCF-Crime but with spatial annotations.) [download_link](http://imagelab.ing.unimore.it/UCFCrime2Local), `<span id = "01">[Ano-Locality](#21902)</span>`
+    - Spatial Temporal Annotations [download_link](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) `<span id = "02">[Background-Bias](#21901)</span>`
 6. Traffic-Train
 7. Belleview
-8. Street Scene (WACV 2020) <span id = "03">[Street Scenes](#02001)</span>
-9. IITB-Corridor (WACV 2020) <span id = "04">[Rodrigurs.etl](#02002)</span>
+8. Street Scene (WACV 2020) `<span id = "03">[Street Scenes](#02001)</span>`
+9. IITB-Corridor (WACV 2020) `<span id = "04">[Rodrigurs.etl](#02002)</span>`
 -----
 ## Unsupervised
 ### 2016
