@@ -124,7 +124,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 |Model| Reported on Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
 |----|----|----|----|-----|----|----|----|
 |<span id = "31801">[Sultani.etl](#11801)</span> | CVPR 18 | Weakly | C3D RGB | X | √ | 75.41 | 1.9|
-|<span id = "31903">[Sultani.etl](#11903)</span> |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
+|<span id = "31903">[IBL](#11903)</span> |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
 |<span id = "31904">[Motion-Aware](#11904)</span>| BMVC 19 | Weakly | PWC Flow| X | √ |  79.0 | -|
 |<span id = "31901">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly | TSN RGB | √ | X | 82.12 | 0.1|
 |<span id = "31902">[Background-Bias](#21901)</span>| ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
