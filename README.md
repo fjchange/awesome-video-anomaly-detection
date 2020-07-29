@@ -48,7 +48,8 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 6. <span id = "02006">[Continual-AD]]</span> [Continual Learning for Anomaly Detection in Surveillance Videos](https://arxiv.org/pdf/2004.07941),`CVPR 2020 Worksop.`
 7. <span id = "02007">[Old is Gold]</span> [Old is Gold: Redefining the Adversarially Learned One-Class Classifier Training Paradigm](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zaheer_Old_Is_Gold_Redefining_the_Adversarially_Learned_One-Class_Classifier_Training_CVPR_2020_paper.pdf), `CVPR 2020`.
 8. <span id = "02008">[Any-Shot]</span> [Any-Shot Sequential Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w54/Doshi_Any-Shot_Sequential_Anomaly_Detection_in_Surveillance_Videos_CVPRW_2020_paper.pdf),`CVPR 2020 workshop`.
-
+9. <span id = "02009">[Few-Shot]</span>[Few-Shot Scene-Adaptive Anomaly Detection](https://arxiv.org/pdf/2007.07843.pdf)`ECCV 2020 Spotlight` [code](https://github.com/yiweilu3/Few-shot-Scene-adaptive-Anomaly-Detection)
+10. <span id = "02010">[CDAE]</span>[Clustering-driven Deep Autoencoder for Video Anomaly Detection]()`ECCV 2020`
 ## Weakly-Supervised
 ### 2018
 1. <span id = "11801">[Sultani.etl]</span> [Real-world Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf), `CVPR 2018` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
