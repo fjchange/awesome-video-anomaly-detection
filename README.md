@@ -33,6 +33,7 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 ### 2018
 1. <span id = "01801">[FramePred]</span> [Future Frame Prediction for Anomaly Detection -- A New Baseline](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf), `CVPR 2018`. [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 2. <span id = "01802">[ALOOC]</span> [Adversarially Learned One-Class Classifier for Novelty Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sabokrou_Adversarially_Learned_One-Class_CVPR_2018_paper.pdf), `CVPR 2018`. [code](https://github.com/khalooei/ALOCC-CVPR2018)
+3. [Detecting Abnormality Without Knowing Normality: A Two-stage Approach for Unsupervised Video Abnormal Event Detection](https://dl.acm.org/doi/10.1145/3240508.3240615), `ACM MM 18`.
 
 ### 2019
 1. <span id = "01901">[Mem-AE]</span> [Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gong_Memorizing_Normality_to_Detect_Anomaly_Memory-Augmented_Deep_Autoencoder_for_Unsupervised_ICCV_2019_paper.pdf), `ICCV 2019`.[code](https://github.com/donggong1/memae-anomaly-detection)
