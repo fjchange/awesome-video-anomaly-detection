@@ -72,7 +72,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 ### 2020
 1. <span id = "12001">[Siamese]</span> [Learning a distance function with a Siamese network to localize anomalies in videos](https://arxiv.org/abs/2001.09189), `WACV 2020`.
 2. <span id = "12002">[AR-Net]</span> [Weakly Supervised Video Anomaly Detection via Center-Guided Discrimative Learning](https://ieeexplore.ieee.org/document/9102722),` ICME 2020`.[code](https://github.com/wanboyang/Anomaly_AR_Net_ICME_2020)
-
+3. [Not only Look, but also Listen: Learning Multimodal Violence Detection under Weak Supervision](https://arxiv.org/pdf/2007.04687.pdf) `ECCV 2020`
 
 ## Supervised
 ### 2019
