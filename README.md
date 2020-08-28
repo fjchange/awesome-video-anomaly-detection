@@ -51,6 +51,7 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 8. <span id = "02008">[Any-Shot]</span> [Any-Shot Sequential Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w54/Doshi_Any-Shot_Sequential_Anomaly_Detection_in_Surveillance_Videos_CVPRW_2020_paper.pdf),`CVPR 2020 workshop`.
 9. <span id = "02009">[Few-Shot]</span>[Few-Shot Scene-Adaptive Anomaly Detection](https://arxiv.org/pdf/2007.07843.pdf)`ECCV 2020 Spotlight` [code](https://github.com/yiweilu3/Few-shot-Scene-adaptive-Anomaly-Detection)
 10. <span id = "02010">[CDAE]</span>[Clustering-driven Deep Autoencoder for Video Anomaly Detection]()`ECCV 2020`
+11. <span id = "02011">[VEC]</span>[Cloze Test Helps: Effective Video Anomaly Detection via Learning to Complete Video Events](https://arxiv.org/abs/2008.11988)`ACM MM 2020 Oral` [code](https://github.com/yuguangnudt/VEC_VAD)
 ## Weakly-Supervised
 ### 2018
 1. <span id = "11801">[Sultani.etl]</span> [Real-world Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf), `CVPR 2018` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
@@ -123,7 +124,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
 ## Performance Comparision on UCF-Crime 
-|Model| Reported on Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)| 
+|Model| Reported on Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)|
 |----|----|----|----|-----|----|----|----|
 |<span id = "31801">[Sultani.etl](#11801)</span> | CVPR 18 | Weakly | C3D RGB | X | √ | 75.41 | 1.9|
 |<span id = "31903">[IBL](#11903)</span> |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
@@ -132,7 +133,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 |<span id = "31902">[Background-Bias](#21901)</span>| ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
 
 ## Perfromace Comparision on ShanghaiTech
-| Model | Reported on Conference/Journal | Supervision | Feature | End2Emd |  AUC(%) | FAR@0.5 (%) |
+| Model | Reported on Conference/Journal | Supervision | Feature | End2End |  AUC(%) | FAR@0.5 (%) |
 |----|----|----|----|-----|----|----|
 | <span id = "41601">[Conv-AE](#01601)</span> | CVPR 16 | Un | - | √ | 60.85 | - |
 | <span id = "41702">[stacked-RNN](#01702)</span> | ICCV 17 | Un | - | √ | 68.0 | - |
@@ -140,20 +141,23 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "41902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 73.4 | - |
 | <span id = "41901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 71.2 | - |
 | <span id = "42005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 70.5 | - |
+| <span id = "42011">[VEC](#02011)</span> | ACM MM 20 | Un | - | √ | 74.8 | - |
 | <span id = "41902-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
 | <span id = "41902-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
 | <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | C3D-RGB | X | 86.3 | 0.15 |
 | <span id = "42002-2">[IBL](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 82.5 | 0.10 |
 | <span id = "41901-2">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | C3D-RGB | √ | 76.44 |  - |
 | <span id = "41901-3">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-Flow | √ | 84.13 |  - |
-| <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-RGB | √ | 84.44| - | 
+| <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-RGB | √ | 84.44| - |
 | <span id = "42002">[AR-Net](#12002)</span> | ICME 20 | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X | 91.24| 0.10 |
+
+
 ## Performance Comparision on Avenue 
 | Model | Reported on Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
 |----|----|----|----|-----|----|
 | <span id = "51601">[Conv-AE](#01601)</span> | CVPR 16 | Un | - | √ | 70.2 |
 | <span id = "51601-2">[Conv-AE*](#01801)</span> | CVPR 18 | Un | - | √ | 80.0 |
-| <span id = "51703">[ConvLSTM-AE](#01703)</span> | ICME 17 | Un | - | √ | 77.0 | 
+| <span id = "51703">[ConvLSTM-AE](#01703)</span> | ICME 17 | Un | - | √ | 77.0 |
 | <span id = "51706">[DeepAppearance](#01706)</span> | ICAIP 17 | Un | - | √ | 84.6 |
 | <span id = "51705">[Unmasking](#01705)</span> | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
 | <span id = "51702">[stacked-RNN](#01702)</span> | ICCV 17 | Un | - | √ |  81.7 |
@@ -162,5 +166,6 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "51904">[Appearance-Motion Correspondence](#01904) </span>| ICCV 19 | Un | - | √ | 86.9 |
 | <span id = "51902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 89.2 |
 | <span id = "52005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 88.5 |
+| <span id = "52011">[VEC](#02011)</span> | ACM MM 20 | Un | - | √ | 90.2 |
 | <span id = "51801-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 91.3 |
 | <span id = "51801-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 92.8 |
