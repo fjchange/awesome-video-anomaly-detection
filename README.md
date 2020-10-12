@@ -80,7 +80,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
-2. <span id = "21902">[Ano-Locality]</span>[Anomaly locality in video suveillance](https://arxiv.org/pdf/1901.10364), `ICIP 19`.
+2. <span id = "21902">[Ano-Locality]</span>[Anomaly locality in video suveillance](https://arxiv.org/pdf/1901.10364).
 
 ------
 ## Reviews / Surveys
