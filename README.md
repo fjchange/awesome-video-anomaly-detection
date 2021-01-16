@@ -152,7 +152,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 |<span id = "31903">[IBL](#11903)</span> |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
 |<span id = "31904">[Motion-Aware](#11904)</span>| BMVC 19 | Weakly | PWC Flow| X | √ |  79.0 | -|
 |<span id = "31901">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly | TSN RGB | √ | X | 82.12 | 0.1|
-|<span id = '32013'>[ST-Graph](#02014)</span> |ACM MM 20| Un | - | √ | 72.7|  
+|<span id = '32013'>[ST-Graph](#02014)</span> |ACM MM 20| Un | - | X | √ | 72.7|  
 |<span id = "31902">[Background-Bias](#21901)</span>| ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
 
 ## Perfromace Comparision on ShanghaiTech
