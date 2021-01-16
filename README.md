@@ -19,16 +19,17 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 8. Street Scene (WACV 2020) <span id = "03">[Street Scenes](#02001)</span>, [`Download link`](https://www.merl.com/demos/video-anomaly-detection)
 9. IITB-Corridor (WACV 2020) <span id = "04">[Rodrigurs.etl](#02002)</span>
 10. XD-Violence (ECCV 2020) <span id ='05'>[XD-Violence](#12003)</span>[Download link](https://roc-ng.github.io/XD-Violence/)
+11. ADOC (ACCV 2020) <span id ='06'>['ADOC](#02012)</span>[Download_link](http://qil.uh.edu/main/datasets/)
 
 
 __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam videos or Surveillance videos__
 
-11. CADP [(CarCrash Accidents Detection and Prediction)](https://github.com/ankitshah009/CarCrash_forecasting_and_detection)
-12. DAD  [paper](https://yuxng.github.io/chan_accv16.pdf), [`Download link`](https://aliensunmin.github.io/project/dashcam/)
-13. A3D  [paper](https://arxiv.org/abs/1903.00618?), [`Download link`](https://github.com/MoonBlvd/tad-IROS2019)
-14. DADA  [`Download link`](https://github.com/JWFangit/LOTVS-DADA)
-15. DoTA   [`Download_link`](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)
-16. Iowa DOT [`Download_link`](https://www.aicitychallenge.org/2018-ai-city-challenge/)
+1. CADP [(CarCrash Accidents Detection and Prediction)](https://github.com/ankitshah009/CarCrash_forecasting_and_detection)
+2. DAD  [paper](https://yuxng.github.io/chan_accv16.pdf), [`Download link`](https://aliensunmin.github.io/project/dashcam/)
+3. A3D  [paper](https://arxiv.org/abs/1903.00618?), [`Download link`](https://github.com/MoonBlvd/tad-IROS2019)
+4. DADA  [`Download link`](https://github.com/JWFangit/LOTVS-DADA)
+5. DoTA   [`Download_link`](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)
+6. Iowa DOT [`Download_link`](https://www.aicitychallenge.org/2018-ai-city-challenge/)
 -----
 ## Unsupervised
 ### 2016
@@ -63,6 +64,12 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 9. <span id = "02009">[Few-Shot]</span>[Few-Shot Scene-Adaptive Anomaly Detection](https://arxiv.org/pdf/2007.07843.pdf)`ECCV 2020 Spotlight` [code](https://github.com/yiweilu3/Few-shot-Scene-adaptive-Anomaly-Detection)
 10. <span id = "02010">[CDAE]</span>[Clustering-driven Deep Autoencoder for Video Anomaly Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600324.pdf)`ECCV 2020`
 11. <span id = "02011">[VEC]</span>[Cloze Test Helps: Effective Video Anomaly Detection via Learning to Complete Video Events](https://arxiv.org/abs/2008.11988)`ACM MM 2020 Oral` [code](https://github.com/yuguangnudt/VEC_VAD)
+12. <span id ='02012'>[ADOC]</span>[A Day on Campus - An Anomaly Detection Dataset for Events in a Single Camera] `ACCV 2020`
+13. <span id ='02013'>[CAC]</span>[Cluster Attention Contrast for Video Anomaly Detection](http://web.pkusz.edu.cn/adsp/files/2020/08/Cluster_Attention_Contrast_for_Video_Anomaly_Detection.pdf) `ACM MM 2020`
+
+### 2021
+1. <span id ='02101'>[AMCM]</span>[Appearance-Motion Memory Consistency Network for Video Anomaly Detection]() `AAAI 2021`
+
 ## Weakly-Supervised
 ### 2018
 1. <span id = "11801">[Sultani.etl]</span> [Real-world Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf), `CVPR 2018` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
@@ -82,6 +89,9 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
 2. <span id = "21902">[Ano-Locality]</span>[Anomaly locality in video suveillance](https://arxiv.org/pdf/1901.10364).
 
+## Others
+### 2020
+1. <span id ="32001">[Few-Shot]</span>[Few-Shot Scene-Adaptive Anomaly Detection](https://arxiv.org/pdf/2007.07843) `ECCV 2020`
 ------
 ## Reviews / Surveys
 1. An Overview of Deep Learning Based Methods for Unsupervised and Semi-Supervised Anomaly Detection in Videos, J. Image, 2018.[page](https://beedotkiran.github.io/VideoAnomaly.html)
