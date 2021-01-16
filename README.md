@@ -66,6 +66,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 11. <span id = "02011">[VEC]</span>[Cloze Test Helps: Effective Video Anomaly Detection via Learning to Complete Video Events](https://arxiv.org/abs/2008.11988)`ACM MM 2020 Oral` [code](https://github.com/yuguangnudt/VEC_VAD)
 12. <span id ='02012'>[ADOC]</span>[A Day on Campus - An Anomaly Detection Dataset for Events in a Single Camera] `ACCV 2020`
 13. <span id ='02013'>[CAC]</span>[Cluster Attention Contrast for Video Anomaly Detection](http://web.pkusz.edu.cn/adsp/files/2020/08/Cluster_Attention_Contrast_for_Video_Anomaly_Detection.pdf) `ACM MM 2020`
+14. <span id ='02014'>[STC-Graph]</span>[Scene-Aware Context Reasoning for Unsupervised Abnormal Event Detection in Videos](https://dl.acm.org/doi/pdf/10.1145/3394171.3413887) `ACM MM 2020`
 
 ### 2021
 1. <span id ='02101'>[AMCM]</span>[Appearance-Motion Memory Consistency Network for Video Anomaly Detection]() `AAAI 2021`
@@ -91,7 +92,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 
 ## Others
 ### 2020
-1. <span id ="32001">[Few-Shot]</span>[Few-Shot Scene-Adaptive Anomaly Detection](https://arxiv.org/pdf/2007.07843) `ECCV 2020`
+1. <span id ="62001">[Few-Shot]</span>[Few-Shot Scene-Adaptive Anomaly Detection](https://arxiv.org/pdf/2007.07843) `ECCV 2020`
 ------
 ## Reviews / Surveys
 1. An Overview of Deep Learning Based Methods for Unsupervised and Semi-Supervised Anomaly Detection in Videos, J. Image, 2018.[page](https://beedotkiran.github.io/VideoAnomaly.html)
@@ -163,6 +164,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "41901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 71.2 | - |
 | <span id = "42005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 70.5 | - |
 | <span id = "42011">[VEC](#02011)</span> | ACM MM 20 | Un | - | √ | 74.8 | - |
+| <span id ='42014'>[ST-Graph](#02014)</span> |ACM MM 20| Un | - | √ | 74.7 | - |
 | <span id = "41902-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
 | <span id = "41902-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
 | <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | C3D-RGB | X | 86.3 | 0.15 |
@@ -188,5 +190,6 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 | <span id = "51902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 89.2 |
 | <span id = "52005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 88.5 |
 | <span id = "52011">[VEC](#02011)</span> | ACM MM 20 | Un | - | √ | 90.2 |
+| <span id = '52014'>[ST-Graph](02014)</span> |ACM MM 20| Un | - | √ | 89.6 | 
 | <span id = "51801-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 91.3 |
 | <span id = "51801-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 92.8 |
