@@ -101,23 +101,26 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 
 ## Books
 1. Outlier Analysis. Charu C. Aggarwal
-------
-Generally, anomaly detection in recent researchs are based on the datasets get from pedestrian (likes UCSD, Avenue, ShanghaiTech, etc.)， or UCF-Crime (real-wrold anomaly).
-However some focus on specefic scene as follows.
-
 ## Specific Scene
-### Traffic
-CVPR 2018 workshop, CVPR 2019 workshop, AICity Challenge series.
-#### First-Person Traffic
-1. Unsupervised Traffic Accident Detection in First-Person Videos, IROS 2019.
 
-#### Driving
-When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [github](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)
+------
+
+Generally, anomaly detection in recent researches are based on the datasets from pedestrian (likes UCSD, Avenue, ShanghaiTech, etc.)， or UCF-Crime (real-world anomaly).
+However some focus on specific scene as follows.
+
+### Traffic
+CVPR  workshop, AI City Challenge series.
+#### 	First-Person Traffic
+​		Unsupervised Traffic Accident Detection in First-Person Videos, IROS 2019.
+
+#### 	Driving
+
+​		When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [github](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)
 
 ### Old-man Fall Down
 
 ### Fighting/Violence
-1. Localization Guided Fight Action Detection in Survellance Videos. ICME 2019.
+1. Localization Guided Fight Action Detection in Surveillance Videos. ICME 2019.
 2. 
 
 ### Social/ Group Anomaly
@@ -130,7 +133,7 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 4. Skeleton Detection
 5. Graph Neural Networks
 6. GAN
-7. Action Recongnition / Temporal Action Localization
+7. Action Recognition / Temporal Action Localization
 8. Metric Learning
 9. Label Noise Learning
 10. Cross-Modal/ Multi-Modal
@@ -145,54 +148,54 @@ When, Where, and What? A New Dataset for Anomaly Detection in Driving Videos. [g
 3. Score Gap
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
-## Performance Comparision on UCF-Crime 
-|Model| Reported on Convference/Journal |Supervised| Feature | End2End| 32 Segments | AUC (%) | FAR@0.5 on Normal (%)|
-|----|----|----|----|-----|----|----|----|
-|<span id = "31801">[Sultani.etl](#11801)</span> | CVPR 18 | Weakly | C3D RGB | X | √ | 75.41 | 1.9|
-|<span id = "31903">[IBL](#11903)</span> |  ICIP 19 | Weakly | C3D RGB | X | √ |  78.66 | -|
-|<span id = "31904">[Motion-Aware](#11904)</span>| BMVC 19 | Weakly | PWC Flow| X | √ |  79.0 | -|
-|<span id = "31901">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly | TSN RGB | √ | X | 82.12 | 0.1|
-|<span id = '32013'>[ST-Graph](#02014)</span> |ACM MM 20| Un | - | X | √ | 72.7|  
-|<span id = "31902">[Background-Bias](#21901)</span>| ACM MM 19 | Fully | NLN RGB | √ | X | 82.0 | - |
+## Performance Comparison on UCF-Crime 
+| Model                                               | Reported on Convference/Journal | Supervised | Feature  | End2End | 32 Segments | AUC (%) | FAR@0.5 on Normal (%) |
+| --------------------------------------------------- | ------------------------------- | ---------- | -------- | ------- | ----------- | ------- | --------------------- |
+| <span id = "31801">[Sultani.etl](#11801)</span>     | CVPR 18                         | Weakly     | C3D RGB  | X       | √           | 75.41   | 1.9                   |
+| <span id = "31903">[IBL](#11903)</span>             | ICIP 19                         | Weakly     | C3D RGB  | X       | √           | 78.66   | -                     |
+| <span id = "31904">[Motion-Aware](#11904)</span>    | BMVC 19                         | Weakly     | PWC Flow | X       | √           | 79.0    | -                     |
+| <span id = "31901">[GCN-Anomaly](#11901)</span>     | CVPR 19                         | Weakly     | TSN RGB  | √       | X           | 82.12   | 0.1                   |
+| <span id = '32013'>[ST-Graph](#02014)</span>        | ACM MM 20                       | Un         | -        | √       | X           | 72.7    |                       |
+| <span id = "31902">[Background-Bias](#21901)</span> | ACM MM 19                       | Fully      | NLN RGB  | √       | X           | 82.0    | -                     |
 
-## Perfromace Comparision on ShanghaiTech
-| Model | Reported on Conference/Journal | Supervision | Feature | End2End |  AUC(%) | FAR@0.5 (%) |
-|----|----|----|----|-----|----|----|
-| <span id = "41601">[Conv-AE](#01601)</span> | CVPR 16 | Un | - | √ | 60.85 | - |
-| <span id = "41702">[stacked-RNN](#01702)</span> | ICCV 17 | Un | - | √ | 68.0 | - |
-| <span id = "41801">[FramePred](#01801)</span> | CVPR 18 | Un | - | √ | 72.8 | - |
-| <span id = "41902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 73.4 | - |
-| <span id = "41901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 71.2 | - |
-| <span id = "42005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 70.5 | - |
-| <span id = "42011">[VEC](#02011)</span> | ACM MM 20 | Un | - | √ | 74.8 | - |
-| <span id ='42014'>[ST-Graph](#02014)</span> |ACM MM 20| Un | - | √ | 74.7 | - |
-| <span id = '42013'>[CAC](#02013)</span> |ACM MM 20| Un | - | √ | 79.3 | 
-| <span id = "41902-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 75.6 | - |
-| <span id = "41902-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 76.8 | - |
-| <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | C3D-RGB | X | 86.3 | 0.15 |
-| <span id = "42002-2">[IBL](#12002)</span> | ICME 2020 | Weakly (Re-Organized Dataset) | I3D-RGB | X | 82.5 | 0.10 |
-| <span id = "41901-2">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | C3D-RGB | √ | 76.44 |  - |
-| <span id = "41901-3">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-Flow | √ | 84.13 |  - |
-| <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19 | Weakly (Re-Organized Dataset) | TSN-RGB | √ | 84.44| - |
-| <span id = "42002">[AR-Net](#12002)</span> | ICME 20 | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X | 91.24| 0.10 |
+## Performance Comparison on ShanghaiTech
+| Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | End2End | AUC(%) | FAR@0.5 (%) |
+| ------------------------------------------------- | ------------------------------ | ----------------------------- | ------------------ | ------- | ------ | ----------- |
+| <span id = "41601">[Conv-AE](#01601)</span>       | CVPR 16                        | Un                            | -                  | √       | 60.85  | -           |
+| <span id = "41702">[stacked-RNN](#01702)</span>   | ICCV 17                        | Un                            | -                  | √       | 68.0   | -           |
+| <span id = "41801">[FramePred](#01801)</span>     | CVPR 18                        | Un                            | -                  | √       | 72.8   | -           |
+| <span id = "41902">[FramePred*](#11902)</span>    | IJCAI 19                       | Un                            | -                  | √       | 73.4   | -           |
+| <span id = "41901-1">[Mem-AE](#01901)</span>      | ICCV 19                        | Un                            | -                  | √       | 71.2   | -           |
+| <span id = "42005">[MNAD](#02005)</span>          | CVPR 20                        | Un                            | -                  | √       | 70.5   | -           |
+| <span id = "42011">[VEC](#02011)</span>           | ACM MM 20                      | Un                            | -                  | √       | 74.8   | -           |
+| <span id ='42014'>[ST-Graph](#02014)</span>       | ACM MM 20                      | Un                            | -                  | √       | 74.7   | -           |
+| <span id = '42013'>[CAC](#02013)</span>           | ACM MM 20                      | Un                            | -                  | √       | 79.3   |             |
+| <span id = "41902-1">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Video Anno | -                  | √       | 75.6   | -           |
+| <span id = "41902-2">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Frame Anno | -                  | √       | 76.8   | -           |
+| <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020                      | Weakly (Re-Organized Dataset) | C3D-RGB            | X       | 86.3   | 0.15        |
+| <span id = "42002-2">[IBL](#12002)</span>         | ICME 2020                      | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 82.5   | 0.10        |
+| <span id = "41901-2">[GCN-Anomaly](#11901)</span> | CVPR 19                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 76.44  | -           |
+| <span id = "41901-3">[GCN-Anomaly](#11901)</span> | CVPR 19                        | Weakly (Re-Organized Dataset) | TSN-Flow           | √       | 84.13  | -           |
+| <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19                        | Weakly (Re-Organized Dataset) | TSN-RGB            | √       | 84.44  | -           |
+| <span id = "42002">[AR-Net](#12002)</span>        | ICME 20                        | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X       | 91.24  | 0.10        |
 
 
-## Performance Comparision on Avenue 
-| Model | Reported on Conference/Journal | Supervision | Feature | End2End |  AUC(%) |
-|----|----|----|----|-----|----|
-| <span id = "51601">[Conv-AE](#01601)</span> | CVPR 16 | Un | - | √ | 70.2 |
-| <span id = "51601-2">[Conv-AE*](#01801)</span> | CVPR 18 | Un | - | √ | 80.0 |
-| <span id = "51703">[ConvLSTM-AE](#01703)</span> | ICME 17 | Un | - | √ | 77.0 |
-| <span id = "51706">[DeepAppearance](#01706)</span> | ICAIP 17 | Un | - | √ | 84.6 |
-| <span id = "51705">[Unmasking](#01705)</span> | ICCV 17 | Un | 3D gradients+VGG conv5 | X | 80.6 |
-| <span id = "51702">[stacked-RNN](#01702)</span> | ICCV 17 | Un | - | √ |  81.7 |
-| <span id = "51801">[FramePred](#01801)</span> | CVPR 18 | Un | - | √ | 85.1 |
-| <span id = "51901-1">[Mem-AE](#01901)</span> | ICCV 19 | Un | - | √ | 83.3 |
-| <span id = "51904">[Appearance-Motion Correspondence](#01904) </span>| ICCV 19 | Un | - | √ | 86.9 |
-| <span id = "51902">[FramePred*](#11902)</span> | IJCAI 19 | Un | - | √ | 89.2 |
-| <span id = "52005">[MNAD](#02005)</span> | CVPR 20 | Un | - |  √ | 88.5 |
-| <span id = "52011">[VEC](#02011)</span> | ACM MM 20 | Un | - | √ | 90.2 |
-| <span id = '52014'>[ST-Graph](#02014)</span> |ACM MM 20| Un | - | √ | 89.6 | 
-| <span id = '52013'>[CAC](#02013)</span> |ACM MM 20| Un | - | √ | 87.0 | 
-| <span id = "51801-1">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Video Anno | - | √ | 91.3 |
-| <span id = "51801-2">[MLEP](#11902)</span> |IJCAI 19 | 10% test vids with Frame Anno | - | √ | 92.8 |
+## Performance Comparison on Avenue 
+| Model                                                        | Reported on Conference/Journal | Supervision                   | Feature                | End2End | AUC(%) |
+| ------------------------------------------------------------ | ------------------------------ | ----------------------------- | ---------------------- | ------- | ------ |
+| <span id = "51601">[Conv-AE](#01601)</span>                  | CVPR 16                        | Un                            | -                      | √       | 70.2   |
+| <span id = "51601-2">[Conv-AE*](#01801)</span>               | CVPR 18                        | Un                            | -                      | √       | 80.0   |
+| <span id = "51703">[ConvLSTM-AE](#01703)</span>              | ICME 17                        | Un                            | -                      | √       | 77.0   |
+| <span id = "51706">[DeepAppearance](#01706)</span>           | ICAIP 17                       | Un                            | -                      | √       | 84.6   |
+| <span id = "51705">[Unmasking](#01705)</span>                | ICCV 17                        | Un                            | 3D gradients+VGG conv5 | X       | 80.6   |
+| <span id = "51702">[stacked-RNN](#01702)</span>              | ICCV 17                        | Un                            | -                      | √       | 81.7   |
+| <span id = "51801">[FramePred](#01801)</span>                | CVPR 18                        | Un                            | -                      | √       | 85.1   |
+| <span id = "51901-1">[Mem-AE](#01901)</span>                 | ICCV 19                        | Un                            | -                      | √       | 83.3   |
+| <span id = "51904">[Appearance-Motion Correspondence](#01904) </span> | ICCV 19                        | Un                            | -                      | √       | 86.9   |
+| <span id = "51902">[FramePred*](#11902)</span>               | IJCAI 19                       | Un                            | -                      | √       | 89.2   |
+| <span id = "52005">[MNAD](#02005)</span>                     | CVPR 20                        | Un                            | -                      | √       | 88.5   |
+| <span id = "52011">[VEC](#02011)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 90.2   |
+| <span id = '52014'>[ST-Graph](#02014)</span>                 | ACM MM 20                      | Un                            | -                      | √       | 89.6   |
+| <span id = '52013'>[CAC](#02013)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 87.0   |
+| <span id = "51801-1">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Video Anno | -                      | √       | 91.3   |
+| <span id = "51801-2">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Frame Anno | -                      | √       | 92.8   |
