@@ -183,8 +183,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19                        | Weakly (Re-Organized Dataset) | TSN-RGB            | √       | 84.44  | -           |
 | <span id = "42002">[AR-Net](#12002)</span>        | ICME 20                        | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X       | 91.24  | 0.10        |
 | <span id = "42002">[CLAWS](#12004)</span>         | ECCV 20                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 89.67  |             |
-| <span id='42101-1'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 93.13  | 1.71        |
-| <span id='42101-2'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | √       | 94.83  | 0.05        |
+| <span id='42101'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | √       | 94.83  | 0.05        |
 
 
 ## Performance Comparison on Avenue 
