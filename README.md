@@ -85,7 +85,8 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 2. <span id = "12002">[AR-Net]</span> [Weakly Supervised Video Anomaly Detection via Center-Guided Discrimative Learning](https://ieeexplore.ieee.org/document/9102722),` ICME 2020`.[code](https://github.com/wanboyang/Anomaly_AR_Net_ICME_2020)
 3. <span id ='12003'>['XD-Violence']</span> [Not only Look, but also Listen: Learning Multimodal Violence Detection under Weak Supervision](https://arxiv.org/pdf/2007.04687.pdf) `ECCV 2020`
 4. <span id ='12004'>[CLAWS]</span> [CLAWS: Clustering Assisted Weakly Supervised Learning with Normalcy Suppression for Anomalous Event Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670358.pdf) `ECCV 2020`
-
+### 2021
+1. <span id="12101">[MIST]</span> [MIST: Multiple-Instance Self-Training Framework for Video Anomaly Detection]() `CVPR 2021`
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
@@ -159,6 +160,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '32013'>[ST-Graph](#02014)</span>        | ACM MM 20                       | Un         | -        | √       | X           | 72.7    |                       |
 | <span id = "31902">[Background-Bias](#21901)</span> | ACM MM 19                       | Fully      | NLN RGB  | √       | X           | 82.0    | -                     |
 | <span id = "31905">[CLAWS](#12004)</span>           | ECCV 20                         | Weakly     | C3D RGB  | √       | X           | 83.03    | -                     |
+| <span id = "32101">[MIST](#12101)</span>            | CVPR 21                         | Weakly     | I3D RGB  | √       | X           | 82.30    | 0.13                     |
 
 ## Performance Comparison on ShanghaiTech
 | Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | End2End | AUC(%) | FAR@0.5 (%) |
@@ -181,6 +183,8 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "41901-4">[GCN-Anomaly](#11901)</span> | CVPR 19                        | Weakly (Re-Organized Dataset) | TSN-RGB            | √       | 84.44  | -           |
 | <span id = "42002">[AR-Net](#12002)</span>        | ICME 20                        | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X       | 91.24  | 0.10        |
 | <span id = "42002">[CLAWS](#12004)</span>         | ECCV 20                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 89.67  |             |
+| <span id='42101'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 93.13  | 1.71        |
+| <span id='42101'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | √       | 94.83  | 0.05        |
 
 
 ## Performance Comparison on Avenue 
