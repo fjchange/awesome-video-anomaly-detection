@@ -86,7 +86,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 3. <span id ='12003'>['XD-Violence']</span> [Not only Look, but also Listen: Learning Multimodal Violence Detection under Weak Supervision](https://arxiv.org/pdf/2007.04687.pdf) `ECCV 2020`
 4. <span id ='12004'>[CLAWS]</span> [CLAWS: Clustering Assisted Weakly Supervised Learning with Normalcy Suppression for Anomalous Event Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670358.pdf) `ECCV 2020`
 ### 2021
-1. <span id="12101">[MIST]</span> [MIST: Multiple-Instance Self-Training Framework for Video Anomaly Detection]() `CVPR 2021`
+1. <span id="12101">[MIST]</span> [MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection]() `CVPR 2021`
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
