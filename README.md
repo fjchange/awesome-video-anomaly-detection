@@ -87,6 +87,8 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 4. <span id ='12004'>[CLAWS]</span> [CLAWS: Clustering Assisted Weakly Supervised Learning with Normalcy Suppression for Anomalous Event Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670358.pdf) `ECCV 2020`
 ### 2021
 1. <span id="12101">[MIST]</span> [MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection]() `CVPR 2021`
+2. <span id='12102'>[MTN-KMIL]</span> [Weakly-supervised Video Anomaly Detection with Contrastive Learning of
+Long and Short-range Temporal Features](https://arxiv.org/pdf/2101.10030.pdf) [Code](https://github.com/tianyu0207/MTN-KMIL)
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
@@ -159,8 +161,9 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "31901">[GCN-Anomaly](#11901)</span>     | CVPR 19                         | Weakly     | TSN RGB  | √       | X           | 82.12   | 0.1                   |
 | <span id = '32013'>[ST-Graph](#02014)</span>        | ACM MM 20                       | Un         | -        | √       | X           | 72.7    |                       |
 | <span id = "31902">[Background-Bias](#21901)</span> | ACM MM 19                       | Fully      | NLN RGB  | √       | X           | 82.0    | -                     |
-| <span id = "31905">[CLAWS](#12004)</span>           | ECCV 20                         | Weakly     | C3D RGB  | √       | X           | 83.03    | -                     |
-| <span id = "32101">[MIST](#12101)</span>            | CVPR 21                         | Weakly     | I3D RGB  | √       | X           | 82.30    | 0.13                     |
+| <span id = "31905">[CLAWS](#12004)</span>           | ECCV 20                         | Weakly     | C3D RGB  | √       | X           | 83.03   | -                     |
+| <span id = "32101">[MIST](#12101)</span>            | CVPR 21                         | Weakly     | I3D RGB  | √       | X           | 82.30   | 0.13                  |
+| <span id = '32102'>[MTN-KMIL](#12102)</span>        | arxiv 21                        | Weakly     | I3D RGB  | X       | √           | 84.03   | -                     |
 
 ## Performance Comparison on ShanghaiTech
 | Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | End2End | AUC(%) | FAR@0.5 (%) |
@@ -184,6 +187,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "42002">[AR-Net](#12002)</span>        | ICME 20                        | Weakly (Re-Organized Dataset) | I3D-RGB & I3D Flow | X       | 91.24  | 0.10        |
 | <span id = "42002">[CLAWS](#12004)</span>         | ECCV 20                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 89.67  |             |
 | <span id='42101'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | √       | 94.83  | 0.05        |
+| <span id='42102'>[MTN-KMIL](#12102)</span>        | arxiv 21                       | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 96.14  | -           |
 
 
 ## Performance Comparison on Avenue 
@@ -205,3 +209,11 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '52013'>[CAC](#02013)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 87.0   |
 | <span id = "51801-1">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Video Anno | -                      | √       | 91.3   |
 | <span id = "51801-2">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Frame Anno | -                      | √       | 92.8   |
+
+## Performance Comparison on XD-Violence 
+| Model                                                 | Reported on Conference/Journal | Supervision              | Feature             | End2End | 32 Segments | AP(%)  |
+| ----------------------------------------------------- | ------------------------------ | ------------------------ | ------------------- | ------- |-------------| ------ |
+| <span id='61801'>[Sultani .et al](#11801)</span>      | ECCV 2020 (reported by Wu)     | Weakly                   | I3D-RGB             | X       |   √         | 73.20  |     
+| <span id='62003>[Wu .et al](#12003)</span>            | ECCV 2020                      | Weakly                   | C3D-RGB             | X       |   X         | 75.41  |
+| <span id = "62102">[MTN-KMIL](#12102)</span>          | arxiv 21                       | Weakly                   | I3D-RGB             | X       |   √         | 77.81  |
+
