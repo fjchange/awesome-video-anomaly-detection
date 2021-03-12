@@ -213,7 +213,7 @@ CVPR  workshop, AI City Challenge series.
 ## Performance Comparison on XD-Violence 
 | Model                                                 | Reported on Conference/Journal | Supervision              | Feature             | End2End | 32 Segments | AP(%)  |
 | ----------------------------------------------------- | ------------------------------ | ------------------------ | ------------------- | ------- |-------------| ------ |
-| <span id='61801'>[Sultani .et al](#11801)</span>      | ECCV 2020 (reported by Wu)     | Weakly                   | I3D-RGB             | X       |   √         | 73.20  |     
-| <span id='62003'>[Wu .et al](#12003)</span>            | ECCV 2020                      | Weakly                   | C3D-RGB             | X       |   X         | 75.41  |
+| <span id='61801'>[Sultani et al.](#11801)</span>      | ECCV 2020 (reported by Wu)     | Weakly                   | I3D-RGB             | X       |   √         | 73.20  |     
+| <span id='62003'>[Wu et al.](#12003)</span>            | ECCV 2020                      | Weakly                   | C3D-RGB             | X       |   X         | 75.41  |
 | <span id = "62102">[MTN-KMIL](#12102)</span>          | arxiv 21                       | Weakly                   | I3D-RGB             | X       |   √         | 77.81  |
 
