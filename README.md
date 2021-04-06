@@ -178,8 +178,8 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "42011">[VEC](#02011)</span>           | ACM MM 20                      | Un                            | -                  | √       | 74.8   | -           |
 | <span id ='42014'>[ST-Graph](#02014)</span>       | ACM MM 20                      | Un                            | -                  | √       | 74.7   | -           |
 | <span id = '42013'>[CAC](#02013)</span>           | ACM MM 20                      | Un                            | -                  | √       | 79.3   |             |
-| <span id='42101'>[AMMC]</span>                    | AAAI 21                        | Un                            | -                  | √       | 73.7   | -           |
-| <span id='42102'>[SSMT]</span>                    | CVPR 21                        | Un                            | -                  | √       | 90.2   | -           |
+| <span id='42101'>[AMMC](#02101)</span>            | AAAI 21                        | Un                            | -                  | √       | 73.7   | -           |
+| <span id='42102'>[SSMT](#02102)</span>            | CVPR 21                        | Un                            | -                  | √       | 90.2   | -           |
 | <span id = "41902-1">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Video Anno | -                  | √       | 75.6   | -           |
 | <span id = "41902-2">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Frame Anno | -                  | √       | 76.8   | -           |
 | <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020                      | Weakly (Re-Organized Dataset) | C3D-RGB            | X       | 86.3   | 0.15        |
@@ -210,8 +210,8 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "52011">[VEC](#02011)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 90.2   |
 | <span id = '52014'>[ST-Graph](#02014)</span>                 | ACM MM 20                      | Un                            | -                      | √       | 89.6   |
 | <span id = '52013'>[CAC](#02013)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 87.0   |
-| <span id='52101'>[AMMC]</span>                               | AAAI 21                        | Un                            | -                      | √       | 86.6   |
-| <span id='52102'>[SSMT]</span>                               | CVPR 21                        | Un                            | -                      | √       | 92.8   |
+| <span id='52101'>[AMMC](#02101)</span>                       | AAAI 21                        | Un                            | -                      | √       | 86.6   |
+| <span id='52102'>[SSMT](#02102)</span>                       | CVPR 21                        | Un                            | -                      | √       | 92.8   |
 | <span id = "51801-1">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Video Anno | -                      | √       | 91.3   |
 | <span id = "51801-2">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Frame Anno | -                      | √       | 92.8   |
 
