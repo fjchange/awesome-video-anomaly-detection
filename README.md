@@ -157,7 +157,7 @@ CVPR  workshop, AI City Challenge series.
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
 ## Performance Comparison on UCF-Crime 
-| Model                                               | Reported on Convference/Journal | Supervised | Feature  | End2End | 32 Segments | AUC (%) | FAR@0.5 on Normal (%) |
+| Model                                               | Reported on Convference/Journal | Supervised | Feature  | Encoder-based | 32 Segments | AUC (%) | FAR@0.5 on Normal (%) |
 | --------------------------------------------------- | ------------------------------- | ---------- | -------- | ------- | ----------- | ------- | --------------------- |
 | <span id = "31801">[Sultani.etl](#11801)</span>     | CVPR 18                         | Weakly     | C3D RGB  | X       | √           | 75.41   | 1.9                   |
 | <span id = "31903">[IBL](#11903)</span>             | ICIP 19                         | Weakly     | C3D RGB  | X       | √           | 78.66   | -                     |
@@ -170,7 +170,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '32102'>[MTN-KMIL](#12102)</span>        | arxiv 21                        | Weakly     | I3D RGB  | X       | √           | 84.03   | -                     |
 
 ## Performance Comparison on ShanghaiTech
-| Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | End2End | AUC(%) | FAR@0.5 (%) |
+| Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | Encoder-based | AUC(%) | FAR@0.5 (%) |
 | ------------------------------------------------- | ------------------------------ | ----------------------------- | ------------------ | ------- | ------ | ----------- |
 | <span id = "41601">[Conv-AE](#01601)</span>       | CVPR 16                        | Un                            | -                  | √       | 60.85  | -           |
 | <span id = "41702">[stacked-RNN](#01702)</span>   | ICCV 17                        | Un                            | -                  | √       | 68.0   | -           |
@@ -219,7 +219,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "51801-2">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Frame Anno | -                      | √       | 92.8   |
 
 ## Performance Comparison on XD-Violence 
-| Model                                                 | Reported on Conference/Journal | Supervision              | Feature             | End2End | 32 Segments | AP(%)  |
+| Model                                                 | Reported on Conference/Journal | Supervision              | Feature             | Encoder-based | 32 Segments | AP(%)  |
 | ----------------------------------------------------- | ------------------------------ | ------------------------ | ------------------- | ------- |-------------| ------ |
 | <span id='61801'>[Sultani et al.](#11801)</span>      | ECCV 2020 (reported by Wu)     | Weakly                   | I3D-RGB             | X       |   √         | 73.20  |     
 | <span id='62003'>[Wu et al.](#12003)</span>           | ECCV 2020                      | Weakly                   | C3D-RGB             | X       |   X         | 67.19  |
