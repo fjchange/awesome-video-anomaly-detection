@@ -98,6 +98,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 Long and Short-range Temporal Features](https://arxiv.org/pdf/2101.10030.pdf) `ICCV 2021`[Code](https://github.com/tianyu0207/RTFM)
 3. <spa id='12103'>[STAD]</span>[Weakly-Supervised Spatio-Temporal Anomaly Detection in Surveillance Video](https://arxiv.org/pdf/2108.03825) `IJCAI 2021`
 4. <span id='12104'>[WSAL]</span>[Localizing Anomalies From Weakly-Labeled Videos](https://arxiv.org/pdf/2008.08944)`TIP 2021` [Code](https://github.com/ktr-hubrt/WSAL)
+5. <span id='12105'>[TRFD]</span>[Learning Causal Temporal Relation and Feature Discrimination for Anomaly Detection](https://ieeexplore.ieee.org/abstract/document/9369126/)`TIP 2021`
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
@@ -174,6 +175,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "32101">[MIST](#12101)</span>            | CVPR 21                         | Weakly     | I3D RGB  | √       | X           | 82.30   | 0.13                  |
 | <span id = '32102'>[RTFM](#12102)</span>            | ICCV 21                         | Weakly     | I3D RGB  | X       | √           | 84.03   | -                     |
 | <span id = '32104'>[WSAL](#12104)</span>            | TIP 21                          | Weakly     | I3D RGB  | X       | √           | 85.38   | -                     |
+| <span id = '32104'>[CRFD](#12105)</span>            | TIP 21                          | Weakly     | I3D RGB  | X       | √           | 84.89   | -                     |
 
 ## Performance Comparison on ShanghaiTech
 | Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | Encoder-based | AUC(%) | FAR@0.5 (%) |
@@ -202,6 +204,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "42002">[CLAWS](#12004)</span>         | ECCV 20                        | Weakly (Re-Organized Dataset) | C3D-RGB            | √       | 89.67  |             |
 | <span id='42101'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | √       | 94.83  | 0.05        |
 | <span id='42102'>[RTFM](#12102)</span>            | ICCV 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 97.21  | -           |
+| <span id='42102'>[CRFD](#12105)</span>            | TIP 21                         | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 97.48  | -           |
 
 
 ## Performance Comparison on Avenue 
@@ -236,4 +239,5 @@ CVPR  workshop, AI City Challenge series.
 | <span id='62003'>[Wu et al.](#12003)</span>           | ECCV 2020                      | Weakly                   | C3D-RGB             | X       |   X         | 67.19  |
 | <span id='62003-1'>[Wu et al.](#12003)</span>         | ECCV 2020                      | Weakly                   | I3D-RGB+Audio       | X       |   X         | 78.64  |
 | <span id = "62102">[RTFM](#12102)</span>              | ICCV 2021                      | Weakly                   | I3D-RGB             | X       |   √         | 77.81  |
+| <span id = "62105">[RTFM](#12105)</span>              | TIP 2021                       | Weakly                   | I3D-RGB             | X       |   √         | 75.90  |
 
