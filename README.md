@@ -97,7 +97,7 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 2. <span id='12102'>[RTFM]</span> [Weakly-supervised Video Anomaly Detection with Contrastive Learning of
 Long and Short-range Temporal Features](https://arxiv.org/pdf/2101.10030.pdf) `ICCV 2021`[Code](https://github.com/tianyu0207/RTFM)
 3. <spa id='12103'>[STAD]</span>[Weakly-Supervised Spatio-Temporal Anomaly Detection in Surveillance Video](https://arxiv.org/pdf/2108.03825) `IJCAI 2021`
-4. <span id='12104'>[WSAL]</span>[Localizing Anomalies From Weakly-Labeled Videos](https://arxiv.org/pdf/2008.08944)`TIP 2021`
+4. <span id='12104'>[WSAL]</span>[Localizing Anomalies From Weakly-Labeled Videos](https://arxiv.org/pdf/2008.08944)`TIP 2021` [Code](https://github.com/ktr-hubrt/WSAL)
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
