@@ -74,6 +74,8 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 ### 2021
 1. <span id ='02101'>[AMCM]</span>[Appearance-Motion Memory Consistency Network for Video Anomaly Detection](https://www.aaai.org/AAAI21Papers/AAAI-4120.CaiR.pdf) `AAAI 2021`
 2. <span id='02102'>[SSMT,Self-Supervised-Multi-Task]</span>[Anomaly Detection in Video via Self-Supervised and Multi-Task Learning](https://arxiv.org/pdf/2011.07491.pdf) `CVPR 2021`
+3. <spa id='02103'>[HF2-VAD]</span>[A Hybrid Video Anomaly Detection Framework via Memory-Augmented Flow Reconstruction and Flow-Guided Frame Prediction](https://arxiv.org/pdf/2108.06852.pdf)`ICCV 2021 Oral`
+4. 
 
 ## Weakly-Supervised
 ### 2018
@@ -168,7 +170,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = "31905">[CLAWS](#12004)</span>           | ECCV 20                         | Weakly     | C3D RGB  | √       | X           | 83.03   | -                     |
 | <span id = "32101">[MIST](#12101)</span>            | CVPR 21                         | Weakly     | I3D RGB  | √       | X           | 82.30   | 0.13                  |
 | <span id = '32102'>[RTFM](#12102)</span>            | ICCV 21                         | Weakly     | I3D RGB  | X       | √           | 84.03   | -                     |
- 
+
 ## Performance Comparison on ShanghaiTech
 | Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | Encoder-based | AUC(%) | FAR@0.5 (%) |
 | ------------------------------------------------- | ------------------------------ | ----------------------------- | ------------------ | ------- | ------ | ----------- |
@@ -183,6 +185,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '42013'>[CAC](#02013)</span>           | ACM MM 20                      | Un                            | -                  | √       | 79.3   |             |
 | <span id='42101'>[AMMC](#02101)</span>            | AAAI 21                        | Un                            | -                  | √       | 73.7   | -           |
 | <span id='42102'>[SSMT](#02102)</span>            | CVPR 21                        | Un                            | -                  | √       | 90.2   | -           |
+| <span id='42103'>[HF2-VAD](#02103)</span>         | ICCV 21                        | Un                            | -                  | √       | 76.2   | -           |
 | <span id = "41902-1">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Video Anno | -                  | √       | 75.6   | -           |
 | <span id = "41902-2">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Frame Anno | -                  | √       | 76.8   | -           |
 | <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020                      | Weakly (Re-Organized Dataset) | C3D-RGB            | X       | 86.3   | 0.15        |
@@ -215,6 +218,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '52013'>[CAC](#02013)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 87.0   |
 | <span id='52101'>[AMMC](#02101)</span>                       | AAAI 21                        | Un                            | -                      | √       | 86.6   |
 | <span id='52102'>[SSMT](#02102)</span>                       | CVPR 21                        | Un                            | -                      | √       | 92.8   |
+| <span id='52103'>[SSMT](#02103)</span>                       | ICCV 21                        | Un                            | -                      | √       | 91.1   |
 | <span id = "51801-1">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Video Anno | -                      | √       | 91.3   |
 | <span id = "51801-2">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Frame Anno | -                      | √       | 92.8   |
 
