@@ -112,6 +112,8 @@ Long and Short-range Temporal Features](https://arxiv.org/pdf/2101.10030.pdf) `I
 1. An Overview of Deep Learning Based Methods for Unsupervised and Semi-Supervised Anomaly Detection in Videos, J. Image, 2018.[page](https://beedotkiran.github.io/VideoAnomaly.html)
 2. DEEP LEARNING FOR ANOMALY DETECTION: A SURVEY, [paper](https://arxiv.org/pdf/1901.03407.pdf)
 3. Video Anomaly Detection for Smart Surveillance [paper](https://arxiv.org/pdf/2004.00222.pdf)
+4.  A survey of single-scene video anomaly detection, `TPAMI 2020` [paper](https://arxiv.org/pdf/2004.05993.pdf).
+
 
 ## Books
 1. Outlier Analysis. Charu C. Aggarwal
