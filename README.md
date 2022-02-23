@@ -203,6 +203,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id='42102'>[SSMT](#02102)</span>            | CVPR 21                        | Un                            | -                  | √       | 90.2   | -           |
 | <span id='42103'>[HF2-VAD](#02103)</span>         | ICCV 21                        | Un                            | -                  | √       | 76.2   | -           |
 | <span id='42104'>[ROADMAP](#02104)</span>         | TNNLS 21                       | Un                            | -                  | √       | 76.6   | -           |
+| <span id='42202'>[BDPN](#02202)</span>         | AAAI 22                       | Un                            | -                  | √       | 78.1   | -           |
 | <span id = "41902-1">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Video Anno | -                  | √       | 75.6   | -           |
 | <span id = "41902-2">[MLEP](#11902)</span>        | IJCAI 19                       | 10% test vids with Frame Anno | -                  | √       | 76.8   | -           |
 | <span id = "42002-1">[Sultani.etl](#12002)</span> | ICME 2020                      | Weakly (Re-Organized Dataset) | C3D-RGB            | X       | 86.3   | 0.15        |
@@ -240,6 +241,8 @@ CVPR  workshop, AI City Challenge series.
 | <span id='52103'>[HF2-VAD](#02103)</span>                    | ICCV 21                        | Un                            | -                      | √       | 91.1   |
 | <span id='52104'>[ROADMAP](#02104)</span>                    | TNNLS 21                       | Un                            | -                      | √       | 88.3   |
 | <span id='52105'>[AEP](#02105)</span>                        | TNNLS 21                       | Un                            | -                      | √       | 90.2   |
+| <span id='52201'>[Causal](#02201)</span>                        | AAAI 22                       | Un                            | I3D-RGB                     | X       | 90.3   |
+| <span id='52202'>[BDPN](#02202)</span>                        | AAAI 22                       | Un                            | -                    |  √     | 90.3   |
 | <span id = "51801-1">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Video Anno | -                      | √       | 91.3   |
 | <span id = "51801-2">[MLEP](#11902)</span>                   | IJCAI 19                       | 10% test vids with Frame Anno | -                      | √       | 92.8   |
 
