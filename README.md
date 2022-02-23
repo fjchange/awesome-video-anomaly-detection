@@ -74,10 +74,13 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 ### 2021
 1. <span id ='02101'>[AMCM]</span>[Appearance-Motion Memory Consistency Network for Video Anomaly Detection](https://www.aaai.org/AAAI21Papers/AAAI-4120.CaiR.pdf) `AAAI 2021`
 2. <span id='02102'>[SSMT,Self-Supervised-Multi-Task]</span>[Anomaly Detection in Video via Self-Supervised and Multi-Task Learning](https://arxiv.org/pdf/2011.07491.pdf) `CVPR 2021`
-3. <spa id='02103'>[HF2-VAD]</span>[A Hybrid Video Anomaly Detection Framework via Memory-Augmented Flow Reconstruction and Flow-Guided Frame Prediction](https://arxiv.org/pdf/2108.06852.pdf)`ICCV 2021 Oral`
-4. <spa id='02104'>[ROADMAP]</span>[Robust Unsupervised Video Anomaly Detection by Multipath Frame Prediction](https://arxiv.org/pdf/2011.02763)`TNNLS 2021`
-5. <spa id='02105'>[AEP]</span>[Abnormal Event Detection and Localization via Adversarial Event Prediction](https://ieeexplore.ieee.org/abstract/document/9346050/) `TNNLS 2021`
+3. <span id='02103'>[HF2-VAD]</span>[A Hybrid Video Anomaly Detection Framework via Memory-Augmented Flow Reconstruction and Flow-Guided Frame Prediction](https://arxiv.org/pdf/2108.06852.pdf)`ICCV 2021 Oral`
+4. <span id='02104'>[ROADMAP]</span>[Robust Unsupervised Video Anomaly Detection by Multipath Frame Prediction](https://arxiv.org/pdf/2011.02763)`TNNLS 2021`
+5. <span id='02105'>[AEP]</span>[Abnormal Event Detection and Localization via Adversarial Event Prediction](https://ieeexplore.ieee.org/abstract/document/9346050/) `TNNLS 2021`
 
+### 2022
+1. <span id='02201'>[Casual]</span>[A Causal Inference Look At Unsupervised Video Anomaly Detection](https://www.aaai.org/AAAI22Papers/AAAI-37.LinX.pdf)`AAAI 2022`
+2. <span id='02202'>[BDPN]</span>[Comprehensive Regularization in a Bi-directional Predictive Network for Video Anomaly Detection](https://www.aaai.org/AAAI22Papers/AAAI-470.ChenC.pdf)`AAAI 2022`
 ## Weakly-Supervised
 ### 2018
 1. <span id = "11801">[Sultani.etl]</span> [Real-world Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf), `CVPR 2018` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
@@ -99,6 +102,9 @@ Long and Short-range Temporal Features](https://arxiv.org/pdf/2101.10030.pdf) `I
 3. <spa id='12103'>[STAD]</span>[Weakly-Supervised Spatio-Temporal Anomaly Detection in Surveillance Video](https://arxiv.org/pdf/2108.03825) `IJCAI 2021`
 4. <span id='12104'>[WSAL]</span>[Localizing Anomalies From Weakly-Labeled Videos](https://arxiv.org/pdf/2008.08944)`TIP 2021` [Code](https://github.com/ktr-hubrt/WSAL)
 5. <span id='12105'>[CRFD]</span>[Learning Causal Temporal Relation and Feature Discrimination for Anomaly Detection](https://ieeexplore.ieee.org/abstract/document/9369126/)`TIP 2021`
+### 2022
+1. <span id='12201'>[MSL]</span>[Self-Training Multi-Sequence Learning with Transformer for Weakly Supervised Video Anomaly Detection](https://www.aaai.org/AAAI22Papers/AAAI-6637.LiS.pdf)`AAAI 2022`
+
 ## Supervised
 ### 2019
 1. <span id = "21901">[Background-Bias]</span>[Exploring Background-bias for Anomaly Detection in Surveillance Videos](https://dl.acm.org/doi/abs/10.1145/3343031.3350998), `ACM MM 19`.
@@ -178,7 +184,9 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '32102'>[RTFM](#12102)</span>            | ICCV 21                         | Weakly     | I3D RGB  | X       | √           | 84.03   | -                     |
 | <span id = '32104'>[WSAL](#12104)</span>            | TIP 21                          | Weakly     | I3D RGB  | X       | √           | 85.38   | -                     |
 | <span id = '32104'>[CRFD](#12105)</span>            | TIP 21                          | Weakly     | I3D RGB  | X       | √           | 84.89   | -                     |
-
+| <span id = '32201_1'>[MSL](#12201)</span>            | AAAI 22                          | Weakly     | C3D RGB  | √        | X           | 82.85   | -                     |
+| <span id = '32201_2'>[MSL](#12202)</span>            | AAAI 22                          | Weakly     | I3D RGB  | √        | X           | 85.30   | -                     |
+| <span id = '32201_3'>[MSL](#12201)</span>            | AAAI 22                          | Weakly     | VideoSwin-RGB  | √        | X           | 85.62   | -                     |
 ## Performance Comparison on ShanghaiTech
 | Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | Encoder-based | AUC(%) | FAR@0.5 (%) |
 | ------------------------------------------------- | ------------------------------ | ----------------------------- | ------------------ | ------- | ------ | ----------- |
@@ -207,8 +215,9 @@ CVPR  workshop, AI City Challenge series.
 | <span id='42101'>[MIST](#12101)</span>            | CVPR 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | √       | 94.83  | 0.05        |
 | <span id='42102'>[RTFM](#12102)</span>            | ICCV 21                        | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 97.21  | -           |
 | <span id='42102'>[CRFD](#12105)</span>            | TIP 21                         | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 97.48  | -           |
-
-
+| <span id='42201_0'>[MSL](#12201)</span>            | AAAI 22                        | Weakly (Re-Organized Dataset) | C3D-RGB            | X       | 94.81  | -      |
+| <span id='42201_1'>[MSL](#12201)</span>            | AAAI 22                        | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 96.08  | -      |
+| <span id='42201_1'>[MSL](#12201)</span>            | AAAI 22                        | Weakly (Re-Organized Dataset) | VideoSwin-RGB            | X       | 97.32  | -      |
 ## Performance Comparison on Avenue 
 | Model                                                        | Reported on Conference/Journal | Supervision                   | Feature                | End2End | AUC(%) |
 | ------------------------------------------------------------ | ------------------------------ | ----------------------------- | ---------------------- | ------- | ------ |
@@ -242,4 +251,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id='62003-1'>[Wu et al.](#12003)</span>         | ECCV 2020                      | Weakly                   | I3D-RGB+Audio       | X       |   X         | 78.64  |
 | <span id = "62102">[RTFM](#12102)</span>              | ICCV 2021                      | Weakly                   | I3D-RGB             | X       |   √         | 77.81  |
 | <span id = "62105">[CRFD](#12105)</span>              | TIP 2021                       | Weakly                   | I3D-RGB             | X       |   √         | 75.90  |
+| <span id = "62201_0">[MSL](#12201)</span>              | AAAI 2022                       | Weakly                   | C3D-RGB             | X       |    X         | 75.53  |
+| <span id = "62201_1">[MSL](#12201)</span>              | AAAI 2022                       | Weakly                   | I3D-RGB             | X       |    X         | 78.28  |
+| <span id = "62201_2">[MSL](#12201)</span>              | AAAI 2022                       | Weakly                   | VideoSwin-RGB             | X       |    X         | 78.59  |
 
