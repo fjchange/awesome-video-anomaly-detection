@@ -20,7 +20,7 @@ Any addition or bug please open an issue, pull requests or e-mail me by `fjchang
 9. IITB-Corridor (WACV 2020) <span id = "04">[Rodrigurs.etl](#02002)</span>
 10. XD-Violence (ECCV 2020) <span id ='05'>[XD-Violence](#12003)</span>[`Download link`](https://roc-ng.github.io/XD-Violence/)
 11. ADOC (ACCV 2020) <span id ='06'>[ADOC](#02012)</span>[`Download_link`](http://qil.uh.edu/main/datasets/)
-
+12. UBnormal (CVPR 2022) <span id='07'>[UBnormal] [`Project Link`](https://github.com/lilygeorgescu/UBnormal) `Open-Set`
 
 __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam videos or Surveillance videos__
 
@@ -81,6 +81,8 @@ __The Datasets belowed are about Traffic Accidents Anticipating in Dashcam video
 ### 2022
 1. <span id='02201'>[Casual]</span>[A Causal Inference Look At Unsupervised Video Anomaly Detection](https://www.aaai.org/AAAI22Papers/AAAI-37.LinX.pdf)`AAAI 2022`
 2. <span id='02202'>[BDPN]</span>[Comprehensive Regularization in a Bi-directional Predictive Network for Video Anomaly Detection](https://www.aaai.org/AAAI22Papers/AAAI-470.ChenC.pdf)`AAAI 2022`
+3. <span id='02203'>[GCL]</span>[Generative Cooperative Learning for Unsupervised Video Anomaly Detection](https://arxiv.org/pdf/2203.03962.pdf)`CVPR 2022`
+
 ## Weakly-Supervised
 ### 2018
 1. <span id = "11801">[Sultani.etl]</span> [Real-world Anomaly Detection in Surveillance Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf), `CVPR 2018` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
@@ -187,6 +189,8 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '32201_1'>[MSL](#12201)</span>            | AAAI 22                          | Weakly     | C3D RGB  | √        | X           | 82.85   | -                     |
 | <span id = '32201_2'>[MSL](#12202)</span>            | AAAI 22                          | Weakly     | I3D RGB  | √        | X           | 85.30   | -                     |
 | <span id = '32201_3'>[MSL](#12201)</span>            | AAAI 22                          | Weakly     | VideoSwin-RGB  | √        | X           | 85.62   | -                     |
+| <span id = '32203_1'>[GCL](#12203)</span>            | CVPR 22                          | Weakly     | ResNext  | √        | X           | 79.84   | -                     |  
+| <span id = '32203_2'>[GCL](#12203)</span>            | CVPR 22                          | Un     | ResNext  | √        | X           | 71.04   | -                     |  
 ## Performance Comparison on ShanghaiTech
 | Model                                             | Reported on Conference/Journal | Supervision                   | Feature            | Encoder-based | AUC(%) | FAR@0.5 (%) |
 | ------------------------------------------------- | ------------------------------ | ----------------------------- | ------------------ | ------- | ------ | ----------- |
@@ -219,6 +223,9 @@ CVPR  workshop, AI City Challenge series.
 | <span id='42201_0'>[MSL](#12201)</span>            | AAAI 22                        | Weakly (Re-Organized Dataset) | C3D-RGB            | X       | 94.81  | -      |
 | <span id='42201_1'>[MSL](#12201)</span>            | AAAI 22                        | Weakly (Re-Organized Dataset) | I3D-RGB            | X       | 96.08  | -      |
 | <span id='42201_1'>[MSL](#12201)</span>            | AAAI 22                        | Weakly (Re-Organized Dataset) | VideoSwin-RGB            | X       | 97.32  | -      |
+| <span id='42203_1'>[GCL](#12203)</span>            | CVPR 22                        | Weakly (Re-Organized Dataset) | ResNext           | X       | 86.21  | -      |
+| <span id='42203_2'>[GCL](#12203)</span>            | CVPR 22                        | Un | ResNext           | X       | 78.93  | -      |
+
 ## Performance Comparison on Avenue 
 | Model                                                        | Reported on Conference/Journal | Supervision                   | Feature                | End2End | AUC(%) |
 | ------------------------------------------------------------ | ------------------------------ | ----------------------------- | ---------------------- | ------- | ------ |
