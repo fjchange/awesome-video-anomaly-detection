@@ -3,6 +3,10 @@ Papers for Video Anomaly Detection, released codes collections.
 
 Any addition or bug please open an issue, pull requests or e-mail me by `fjchange@hotmail.com ` 
 
+## Recent Updated
+- AAAI 2022
+- CVPR 2022
+
 ## Datasets
 0. UMN [`Download link`](http://mha.cs.umn.edu/)
 1. UCSD [`Download link`](http://www.svcl.ucsd.edu/projects/anomaly/dataset.html)
