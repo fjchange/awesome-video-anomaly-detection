@@ -176,6 +176,8 @@ CVPR  workshop, AI City Challenge series.
 3. Score Gap
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
+**As discussed in Issue [#12](https://github.com/fjchange/awesome-video-anomaly-detection/issues/12), the reported results below will be ``Micro-AUC”, if the paper provide ``Macro-AUC", which will be tagged with `*`. **
+    
 ## Performance Comparison on UCF-Crime 
 | Model                                               | Reported on Convference/Journal | Supervised | Feature  | Encoder-based | 32 Segments | AUC (%) | FAR@0.5 on Normal (%) |
 | --------------------------------------------------- | ------------------------------- | ---------- | -------- | ------- | ----------- | ------- | --------------------- |
@@ -208,7 +210,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id ='42014'>[ST-Graph](#02014)</span>       | ACM MM 20                      | Un                            | -                  | √       | 74.7   | -           |
 | <span id = '42013'>[CAC](#02013)</span>           | ACM MM 20                      | Un                            | -                  | √       | 79.3   |             |
 | <span id='42101'>[AMMC](#02101)</span>            | AAAI 21                        | Un                            | -                  | √       | 73.7   | -           |
-| <span id='42102'>[SSMT](#02102)</span>            | CVPR 21                        | Un                            | -                  | √       | 90.2   | -           |
+| <span id='42102'>[SSMT](#02102)</span>            | CVPR 21                        | Un                            | -                  | √       | 82.4   | -           |
 | <span id='42103'>[HF2-VAD](#02103)</span>         | ICCV 21                        | Un                            | -                  | √       | 76.2   | -           |
 | <span id='42104'>[ROADMAP](#02104)</span>         | TNNLS 21                       | Un                            | -                  | √       | 76.6   | -           |
 | <span id='42202'>[BDPN](#02202)</span>         | AAAI 22                       | Un                            | -                  | √       | 78.1   | -           |
@@ -248,7 +250,7 @@ CVPR  workshop, AI City Challenge series.
 | <span id = '52014'>[ST-Graph](#02014)</span>                 | ACM MM 20                      | Un                            | -                      | √       | 89.6   |
 | <span id = '52013'>[CAC](#02013)</span>                      | ACM MM 20                      | Un                            | -                      | √       | 87.0   |
 | <span id='52101'>[AMMC](#02101)</span>                       | AAAI 21                        | Un                            | -                      | √       | 86.6   |
-| <span id='52102'>[SSMT](#02102)</span>                       | CVPR 21                        | Un                            | -                      | √       | 92.8   |
+| <span id='52102'>[SSMT](#02102)</span>                       | CVPR 21                        | Un                            | -                      | √       | 91.5   |
 | <span id='52103'>[HF2-VAD](#02103)</span>                    | ICCV 21                        | Un                            | -                      | √       | 91.1   |
 | <span id='52104'>[ROADMAP](#02104)</span>                    | TNNLS 21                       | Un                            | -                      | √       | 88.3   |
 | <span id='52105'>[AEP](#02105)</span>                        | TNNLS 21                       | Un                            | -                      | √       | 90.2   |
