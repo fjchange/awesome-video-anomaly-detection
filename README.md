@@ -176,7 +176,7 @@ CVPR  workshop, AI City Challenge series.
 3. Score Gap
 4. False Alarm Rate on Normal with 0.5 as threshold (Weakly supervised, proposed in CVPR 18)
 
-**As discussed in Issue [#12](https://github.com/fjchange/awesome-video-anomaly-detection/issues/12), the reported results below will be ``Micro-AUC”, if the paper provide ``Macro-AUC", which will be tagged with `*`. **
+As discussed in Issue [#12](https://github.com/fjchange/awesome-video-anomaly-detection/issues/12), the reported results below will be ``Micro-AUC”, if the paper provide ``Macro-AUC", which will be tagged with `*`. 
     
 ## Performance Comparison on UCF-Crime 
 | Model                                               | Reported on Convference/Journal | Supervised | Feature  | Encoder-based | 32 Segments | AUC (%) | FAR@0.5 on Normal (%) |
