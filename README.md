@@ -110,6 +110,7 @@ Long and Short-range Temporal Features](https://arxiv.org/pdf/2101.10030.pdf) `I
 5. <span id='12105'>[CRFD]</span>[Learning Causal Temporal Relation and Feature Discrimination for Anomaly Detection](https://ieeexplore.ieee.org/abstract/document/9369126/)`TIP 2021`
 ### 2022
 1. <span id='12201'>[MSL]</span>[Self-Training Multi-Sequence Learning with Transformer for Weakly Supervised Video Anomaly Detection](https://www.aaai.org/AAAI22Papers/AAAI-6637.LiS.pdf)`AAAI 2022`
+2. <span id='12202'>[CSL-TAL]</span>[Consistency-based Self-supervised Learning for Temporal Anomaly Localization](https://arxiv.org/pdf/2208.05251) `ECCVW 22`, [code](https://github.com/aimagelab/Consistency-based-Self-supervised-Learning-for-Temporal-Anomaly-Localization)
 
 ## Supervised
 ### 2019
